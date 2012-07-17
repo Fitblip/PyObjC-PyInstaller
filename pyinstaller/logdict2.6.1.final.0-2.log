@@ -1,0 +1,802 @@
+__main__: None -> <PyScript '__main__' /Users/rdsears/Coding/pyinstaller/support/_pyi_bootstrap.py imports=[('archive', 0, 0, -1), ('iu', 0, 0, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('site', 0, 0, -1)] binaries=[] datas=[]>
+archive: None -> <PyModule 'archive' /Users/rdsears/Coding/pyinstaller/PyInstaller/loader/archive.pyc imports=[('marshal', 0, 0, -1), ('struct', 0, 0, -1), ('imp', 0, 0, -1), ('sys', 0, 0, -1), ('iu', 0, 0, -1), ('imp', 1, 0, -1), ('os', 1, 1, -1), ('zlib', 1, 1, -1), ('AES', 1, 1, -1), ('os', 1, 1, -1), ('os', 1, 1, -1)] binaries=[] datas=[]>
+iu: None -> <PyModule 'iu' /Users/rdsears/Coding/pyinstaller/PyInstaller/loader/iu.pyc imports=[('sys', 0, 0, -1), ('imp', 0, 0, -1), ('marshal', 0, 0, -1), ('zipimport', 0, 0, -1), ('__builtin__', 1, 0, -1), ('posix', 1, 1, -1), ('posix.stat', 1, 1, -1), ('posix.getcwd', 1, 1, -1), ('posix.environ', 1, 1, -1), ('posix.listdir', 1, 1, -1)] binaries=[] datas=[]>
+sys: None -> <BuiltinModule 'sys' None imports=[] binaries=[] datas=[]>
+os: None -> <PyModule 'os' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/os.pyc imports=[('sys', 0, 0, -1), ('errno', 0, 0, -1), ('posix', 0, 1, -1), ('posix.*', 0, 1, -1), ('posix', 0, 1, -1), ('posix._exit', 0, 1, -1), ('posixpath', 0, 1, -1), ('posix', 0, 1, -1), ('os2emxpath', 0, 1, -1), ('_emx_link', 0, 1, -1), ('_emx_link.link', 0, 1, -1), ('os.path', 0, 0, -1), ('os.path.curdir', 0, 0, -1), ('os.path.pardir', 0, 0, -1), ('os.path.sep', 0, 0, -1), ('os.path.pathsep', 0, 0, -1), ('os.path.defpath', 0, 0, -1), ('os.path.extsep', 0, 0, -1), ('os.path.altsep', 0, 0, -1), ('os.path.devnull', 0, 0, -1), ('UserDict', 0, 1, -1), ('copy_reg', 0, 0, -1), ('os.path', 1, 0, -1), ('os.path.join', 1, 0, -1), ('os.path.isdir', 1, 0, -1), ('os.path.islink', 1, 0, -1), ('warnings', 1, 0, -1), ('subprocess', 1, 0, -1), ('types', 1, 0, -1), ('warnings', 1, 0, -1), ('subprocess', 1, 0, -1), ('types', 1, 0, -1), ('warnings', 1, 0, -1), ('subprocess', 1, 0, -1), ('types', 1, 0, -1)] binaries=[] datas=[]>
+site: None -> <PyModule 'site' /Users/rdsears/Coding/pyinstaller/PyInstaller/fake/fake-site.pyc imports=[] binaries=[] datas=[]>
+marshal: None -> <BuiltinModule 'marshal' None imports=[] binaries=[] datas=[]>
+struct: None -> <PyModule 'struct' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/struct.pyc imports=[('_struct', 0, 0, -1), ('_struct.*', 0, 0, -1), ('_struct', 0, 0, -1), ('_struct._clearcache', 0, 0, -1)] binaries=[] datas=[]>
+imp: None -> <BuiltinModule 'imp' None imports=[] binaries=[] datas=[]>
+zlib: None -> <ExtensionModule 'zlib' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/zlib.so imports=[] binaries=[] datas=[]>
+AES: None -> None
+  DEL AES
+_struct: None -> <ExtensionModule '_struct' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_struct.so imports=[] binaries=[] datas=[]>
+zipimport: None -> <BuiltinModule 'zipimport' None imports=[] binaries=[] datas=[]>
+__builtin__: None -> <BuiltinModule '__builtin__' None imports=[] binaries=[] datas=[]>
+posix: None -> <BuiltinModule 'posix' None imports=[] binaries=[] datas=[]>
+errno: None -> <BuiltinModule 'errno' None imports=[] binaries=[] datas=[]>
+posixpath: None -> <PyModule 'posixpath' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/posixpath.pyc imports=[('os', 0, 0, -1), ('stat', 0, 0, -1), ('genericpath', 0, 0, -1), ('warnings', 0, 0, -1), ('genericpath', 0, 0, -1), ('genericpath.*', 0, 0, -1), ('pwd', 1, 1, -1), ('pwd', 1, 1, -1), ('re', 1, 1, -1)] binaries=[] datas=[]>
+os2emxpath: None -> <PyModule 'os2emxpath' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/os2emxpath.pyc imports=[('os', 0, 0, -1), ('stat', 0, 0, -1), ('genericpath', 0, 0, -1), ('genericpath.*', 0, 0, -1), ('ntpath', 0, 0, -1), ('ntpath.expanduser', 0, 0, -1), ('ntpath.expandvars', 0, 0, -1), ('ntpath.isabs', 0, 0, -1), ('ntpath.islink', 0, 0, -1), ('ntpath.splitdrive', 0, 0, -1), ('ntpath.splitext', 0, 0, -1), ('ntpath.split', 0, 0, -1), ('ntpath.walk', 0, 0, -1)] binaries=[] datas=[]>
+_emx_link: None -> None
+  DEL _emx_link
+_emx_link: None -> None
+  DEL _emx_link
+UserDict: None -> <PyModule 'UserDict' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/UserDict.pyc imports=[('_abcoll', 0, 0, -1), ('copy', 1, 0, -1)] binaries=[] datas=[]>
+copy_reg: None -> <PyModule 'copy_reg' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/copy_reg.pyc imports=[('types', 0, 0, -1), ('types.ClassType', 0, 0, -1)] binaries=[] datas=[]>
+warnings: None -> <PyModule 'warnings' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/warnings.pyc imports=[('linecache', 0, 0, -1), ('sys', 0, 0, -1), ('types', 0, 0, -1), ('_warnings', 0, 0, -1), ('_warnings.filters', 0, 0, -1), ('_warnings.default_action', 0, 0, -1), ('_warnings.once_registry', 0, 0, -1), ('_warnings.warn', 0, 0, -1), ('_warnings.warn_explicit', 0, 0, -1), ('re', 1, 0, -1), ('re', 1, 0, -1), ('re', 1, 0, -1)] binaries=[] datas=[]>
+subprocess: None -> <PyModule 'subprocess' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/subprocess.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('types', 0, 0, -1), ('traceback', 0, 0, -1), ('gc', 0, 0, -1), ('signal', 0, 0, -1), ('threading', 0, 1, -1), ('msvcrt', 0, 1, -1), ('_subprocess', 0, 1, -1), ('_subprocess.*', 0, 1, -1), ('select', 0, 1, -1), ('errno', 0, 1, -1), ('fcntl', 0, 1, -1), ('pickle', 0, 1, -1)] binaries=[] datas=[]>
+types: None -> <PyModule 'types' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/types.pyc imports=[('sys', 0, 0, -1)] binaries=[] datas=[]>
+stat: None -> <PyModule 'stat' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/stat.pyc imports=[] binaries=[] datas=[]>
+genericpath: None -> <PyModule 'genericpath' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/genericpath.pyc imports=[('os', 0, 0, -1), ('stat', 0, 0, -1)] binaries=[] datas=[]>
+pwd: None -> <BuiltinModule 'pwd' None imports=[] binaries=[] datas=[]>
+re: None -> <PyModule 're' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/re.pyc imports=[('sys', 0, 0, -1), ('sre_compile', 0, 0, -1), ('sre_parse', 0, 0, -1), ('copy_reg', 0, 0, -1), ('sre_constants', 1, 0, -1), ('sre_constants.BRANCH', 1, 0, -1), ('sre_constants.SUBPATTERN', 1, 0, -1)] binaries=[] datas=[]>
+linecache: None -> <PyModule 'linecache' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/linecache.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1)] binaries=[] datas=[]>
+_warnings: None -> <BuiltinModule '_warnings' None imports=[] binaries=[] datas=[]>
+sre_compile: None -> <PyModule 'sre_compile' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/sre_compile.pyc imports=[('_sre', 0, 0, -1), ('sys', 0, 0, -1), ('sre_parse', 0, 0, -1), ('sre_constants', 0, 0, -1), ('sre_constants.*', 0, 0, -1), ('array', 1, 0, -1)] binaries=[] datas=[]>
+sre_parse: None -> <PyModule 'sre_parse' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/sre_parse.pyc imports=[('sys', 0, 0, -1), ('sre_constants', 0, 0, -1), ('sre_constants.*', 0, 0, -1)] binaries=[] datas=[]>
+sre_constants: None -> <PyModule 'sre_constants' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/sre_constants.pyc imports=[] binaries=[] datas=[]>
+_sre: None -> <BuiltinModule '_sre' None imports=[('copy_reg', 0, 0, -1)] binaries=[] datas=[]>
+array: None -> <ExtensionModule 'array' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/array.so imports=[] binaries=[] datas=[]>
+ntpath: None -> <PyModule 'ntpath' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/ntpath.pyc imports=[('os', 0, 0, -1), ('sys', 0, 0, -1), ('stat', 0, 0, -1), ('genericpath', 0, 0, -1), ('warnings', 0, 0, -1), ('genericpath', 0, 0, -1), ('genericpath.*', 0, 0, -1), ('nt', 0, 0, -1), ('nt._getfullpathname', 0, 0, -1), ('string', 1, 0, -1)] binaries=[] datas=[]>
+nt: None -> None
+  DEL nt
+nt: None -> None
+  DEL nt
+string: None -> <PyModule 'string' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/string.pyc imports=[('re', 0, 0, -1), ('strop', 0, 0, -1), ('strop.maketrans', 0, 0, -1), ('strop.lowercase', 0, 0, -1), ('strop.uppercase', 0, 0, -1), ('strop.whitespace', 0, 0, -1)] binaries=[] datas=[]>
+strop: None -> <ExtensionModule 'strop' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/strop.so imports=[] binaries=[] datas=[]>
+_abcoll: None -> <PyModule '_abcoll' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/_abcoll.pyc imports=[('abc', 0, 0, -1), ('abc.ABCMeta', 0, 0, -1), ('abc.abstractmethod', 0, 0, -1), ('sys', 0, 0, -1)] binaries=[] datas=[]>
+copy: None -> <PyModule 'copy' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/copy.pyc imports=[('types', 0, 0, -1), ('copy_reg', 0, 0, -1), ('copy_reg.dispatch_table', 0, 0, -1), ('org.python.core', 0, 0, -1), ('org.python.core.PyStringMap', 0, 0, -1), ('repr', 1, 0, -1), ('repr', 1, 0, -1), ('sys', 1, 1, -1)] binaries=[] datas=[]>
+abc: None -> <PyModule 'abc' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/abc.pyc imports=[] binaries=[] datas=[]>
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+repr: None -> <PyModule 'repr' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/repr.pyc imports=[('__builtin__', 0, 0, -1), ('itertools', 0, 0, -1), ('itertools.islice', 0, 0, -1)] binaries=[] datas=[]>
+itertools: None -> <ExtensionModule 'itertools' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/itertools.so imports=[] binaries=[] datas=[]>
+traceback: None -> <PyModule 'traceback' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/traceback.pyc imports=[('linecache', 0, 0, -1), ('sys', 0, 0, -1), ('types', 0, 0, -1)] binaries=[] datas=[]>
+gc: None -> <BuiltinModule 'gc' None imports=[] binaries=[] datas=[]>
+signal: None -> <BuiltinModule 'signal' None imports=[] binaries=[] datas=[]>
+threading: None -> <PyModule 'threading' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/threading.pyc imports=[('sys', 0, 0, -1), ('thread', 0, 0, -1), ('warnings', 0, 0, -1), ('functools', 0, 0, -1), ('functools.wraps', 0, 0, -1), ('time', 0, 0, -1), ('time.time', 0, 0, -1), ('time.sleep', 0, 0, -1), ('traceback', 0, 0, -1), ('traceback.format_exc', 0, 0, -1), ('collections', 0, 0, -1), ('collections.deque', 0, 0, -1), ('thread', 0, 0, -1), ('thread.stack_size', 0, 0, -1), ('thread', 0, 0, -1), ('thread._local', 0, 0, -1), ('_threading_local', 0, 1, -1), ('_threading_local.local', 0, 1, -1), ('random', 1, 0, -1), ('random.random', 1, 0, -1)] binaries=[] datas=[]>
+msvcrt: None -> None
+  DEL msvcrt
+_subprocess: None -> None
+  DEL _subprocess
+_subprocess: None -> None
+  DEL _subprocess
+select: None -> <ExtensionModule 'select' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/select.so imports=[] binaries=[] datas=[]>
+fcntl: None -> <ExtensionModule 'fcntl' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/fcntl.so imports=[] binaries=[] datas=[]>
+pickle: None -> <PyModule 'pickle' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/pickle.pyc imports=[('types', 0, 0, -1), ('types.*', 0, 0, -1), ('copy_reg', 0, 0, -1), ('copy_reg.dispatch_table', 0, 0, -1), ('copy_reg', 0, 0, -1), ('copy_reg._extension_registry', 0, 0, -1), ('copy_reg._inverted_registry', 0, 0, -1), ('copy_reg._extension_cache', 0, 0, -1), ('marshal', 0, 0, -1), ('sys', 0, 0, -1), ('struct', 0, 0, -1), ('re', 0, 0, -1), ('org.python.core', 0, 0, -1), ('org.python.core.PyStringMap', 0, 0, -1), ('binascii', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('StringIO', 0, 1, -1), ('StringIO.StringIO', 0, 1, -1), ('doctest', 1, 0, -1)] binaries=[] datas=[]>
+thread: None -> <BuiltinModule 'thread' None imports=[] binaries=[] datas=[]>
+functools: None -> <PyModule 'functools' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/functools.pyc imports=[('_functools', 0, 0, -1), ('_functools.partial', 0, 0, -1), ('_functools.reduce', 0, 0, -1)] binaries=[] datas=[]>
+time: None -> <ExtensionModule 'time' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/time.so imports=[('_strptime', 0, 0, -1)] binaries=[] datas=[]>
+collections: None -> <PyModule 'collections' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/collections.pyc imports=[('_abcoll', 0, 0, -1), ('_abcoll.*', 0, 0, -1), ('_abcoll', 0, 0, -1), ('_collections', 0, 0, -1), ('_collections.deque', 0, 0, -1), ('_collections.defaultdict', 0, 0, -1), ('operator', 0, 0, -1), ('operator.itemgetter', 0, 0, -1), ('keyword', 0, 0, -1), ('keyword.iskeyword', 0, 0, -1), ('sys', 0, 0, -1), ('cPickle', 0, 1, -1), ('cPickle.loads', 0, 1, -1), ('cPickle.dumps', 0, 1, -1), ('doctest', 0, 1, -1)] binaries=[] datas=[]>
+_threading_local: None -> <PyModule '_threading_local' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/_threading_local.pyc imports=[('threading', 0, 0, -1), ('threading.current_thread', 0, 0, -1), ('threading.RLock', 0, 0, -1), ('threading', 1, 0, -1)] binaries=[] datas=[]>
+random: None -> <PyModule 'random' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/random.pyc imports=[('__future__', 0, 0, -1), ('__future__.division', 0, 0, -1), ('warnings', 0, 0, -1), ('warnings.warn', 0, 0, -1), ('types', 0, 0, -1), ('types.MethodType', 0, 0, -1), ('types.BuiltinMethodType', 0, 0, -1), ('math', 0, 0, -1), ('math.log', 0, 0, -1), ('math.exp', 0, 0, -1), ('math.pi', 0, 0, -1), ('math.e', 0, 0, -1), ('math.ceil', 0, 0, -1), ('math', 0, 0, -1), ('math.sqrt', 0, 0, -1), ('math.acos', 0, 0, -1), ('math.cos', 0, 0, -1), ('math.sin', 0, 0, -1), ('os', 0, 0, -1), ('os.urandom', 0, 0, -1), ('binascii', 0, 0, -1), ('binascii.hexlify', 0, 0, -1), ('_random', 0, 0, -1), ('time', 1, 1, -1), ('time', 1, 1, -1), ('time', 1, 1, -1), ('time', 1, 0, -1)] binaries=[] datas=[]>
+_functools: None -> <ExtensionModule '_functools' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_functools.so imports=[] binaries=[] datas=[]>
+_strptime: None -> <PyModule '_strptime' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/_strptime.pyc imports=[('time', 0, 0, -1), ('locale', 0, 0, -1), ('calendar', 0, 0, -1), ('re', 0, 0, -1), ('re.compile', 0, 0, -1), ('re', 0, 0, -1), ('re.IGNORECASE', 0, 0, -1), ('re', 0, 0, -1), ('re.escape', 0, 0, -1), ('datetime', 0, 0, -1), ('datetime.date', 0, 0, -1), ('thread', 0, 0, -1), ('thread.allocate_lock', 0, 0, -1), ('dummy_thread', 0, 0, -1), ('dummy_thread.allocate_lock', 0, 0, -1)] binaries=[] datas=[]>
+locale: None -> <PyModule 'locale' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/locale.pyc imports=[('sys', 0, 0, -1), ('encodings', 0, 0, -1), ('encodings.aliases', 0, 0, -1), ('functools', 0, 0, -1), ('_locale', 0, 0, -1), ('_locale.*', 0, 0, -1), ('re', 0, 0, -1), ('operator', 0, 0, -1), ('_locale', 1, 0, -1), ('os', 1, 0, -1), ('_locale', 1, 0, -1)] binaries=[] datas=[]>
+calendar: None -> <PyModule 'calendar' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/calendar.pyc imports=[('sys', 0, 0, -1), ('datetime', 0, 0, -1), ('locale', 0, 0, -1), ('optparse', 1, 0, -1)] binaries=[] datas=[]>
+datetime: None -> <ExtensionModule 'datetime' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/datetime.so imports=[] binaries=[] datas=[]>
+dummy_thread: None -> <PyModule 'dummy_thread' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/dummy_thread.pyc imports=[('traceback', 0, 0, -1)] binaries=[] datas=[]>
+encodings: None -> <PkgModule 'encodings' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/__init__.pyc imports=[('codecs', 0, 0, -1), ('encodings', 0, 0, -1), ('encodings.aliases', 0, 0, -1), ('__builtin__', 0, 0, -1), ('aliases', 0, 0, -1), ('ascii', 0, 0, -1), ('base64_codec', 0, 0, -1), ('big5', 0, 0, -1), ('big5hkscs', 0, 0, -1), ('bz2_codec', 0, 0, -1), ('charmap', 0, 0, -1), ('cp037', 0, 0, -1), ('cp1006', 0, 0, -1), ('cp1026', 0, 0, -1), ('cp1140', 0, 0, -1), ('cp1250', 0, 0, -1), ('cp1251', 0, 0, -1), ('cp1252', 0, 0, -1), ('cp1253', 0, 0, -1), ('cp1254', 0, 0, -1), ('cp1255', 0, 0, -1), ('cp1256', 0, 0, -1), ('cp1257', 0, 0, -1), ('cp1258', 0, 0, -1), ('cp424', 0, 0, -1), ('cp437', 0, 0, -1), ('cp500', 0, 0, -1), ('cp737', 0, 0, -1), ('cp775', 0, 0, -1), ('cp850', 0, 0, -1), ('cp852', 0, 0, -1), ('cp855', 0, 0, -1), ('cp856', 0, 0, -1), ('cp857', 0, 0, -1), ('cp860', 0, 0, -1), ('cp861', 0, 0, -1), ('cp862', 0, 0, -1), ('cp863', 0, 0, -1), ('cp864', 0, 0, -1), ('cp865', 0, 0, -1), ('cp866', 0, 0, -1), ('cp869', 0, 0, -1), ('cp874', 0, 0, -1), ('cp875', 0, 0, -1), ('cp932', 0, 0, -1), ('cp949', 0, 0, -1), ('cp950', 0, 0, -1), ('euc_jis_2004', 0, 0, -1), ('euc_jisx0213', 0, 0, -1), ('euc_jp', 0, 0, -1), ('euc_kr', 0, 0, -1), ('gb18030', 0, 0, -1), ('gb2312', 0, 0, -1), ('gbk', 0, 0, -1), ('hex_codec', 0, 0, -1), ('hp_roman8', 0, 0, -1), ('hz', 0, 0, -1), ('idna', 0, 0, -1), ('iso2022_jp', 0, 0, -1), ('iso2022_jp_1', 0, 0, -1), ('iso2022_jp_2', 0, 0, -1), ('iso2022_jp_2004', 0, 0, -1), ('iso2022_jp_3', 0, 0, -1), ('iso2022_jp_ext', 0, 0, -1), ('iso2022_kr', 0, 0, -1), ('iso8859_1', 0, 0, -1), ('iso8859_10', 0, 0, -1), ('iso8859_11', 0, 0, -1), ('iso8859_13', 0, 0, -1), ('iso8859_14', 0, 0, -1), ('iso8859_15', 0, 0, -1), ('iso8859_16', 0, 0, -1), ('iso8859_2', 0, 0, -1), ('iso8859_3', 0, 0, -1), ('iso8859_4', 0, 0, -1), ('iso8859_5', 0, 0, -1), ('iso8859_6', 0, 0, -1), ('iso8859_7', 0, 0, -1), ('iso8859_8', 0, 0, -1), ('iso8859_9', 0, 0, -1), ('johab', 0, 0, -1), ('koi8_r', 0, 0, -1), ('koi8_u', 0, 0, -1), ('latin_1', 0, 0, -1), ('mac_arabic', 0, 0, -1), ('mac_centeuro', 0, 0, -1), ('mac_croatian', 0, 0, -1), ('mac_cyrillic', 0, 0, -1), ('mac_farsi', 0, 0, -1), ('mac_greek', 0, 0, -1), ('mac_iceland', 0, 0, -1), ('mac_latin2', 0, 0, -1), ('mac_roman', 0, 0, -1), ('mac_romanian', 0, 0, -1), ('mac_turkish', 0, 0, -1), ('mbcs', 0, 0, -1), ('palmos', 0, 0, -1), ('ptcp154', 0, 0, -1), ('punycode', 0, 0, -1), ('quopri_codec', 0, 0, -1), ('raw_unicode_escape', 0, 0, -1), ('rot_13', 0, 0, -1), ('shift_jis', 0, 0, -1), ('shift_jis_2004', 0, 0, -1), ('shift_jisx0213', 0, 0, -1), ('string_escape', 0, 0, -1), ('tis_620', 0, 0, -1), ('undefined', 0, 0, -1), ('unicode_escape', 0, 0, -1), ('unicode_internal', 0, 0, -1), ('utf_16', 0, 0, -1), ('utf_16_be', 0, 0, -1), ('utf_16_le', 0, 0, -1), ('utf_32', 0, 0, -1), ('utf_32_be', 0, 0, -1), ('utf_32_le', 0, 0, -1), ('utf_7', 0, 0, -1), ('utf_8', 0, 0, -1), ('utf_8_sig', 0, 0, -1), ('uu_codec', 0, 0, -1), ('zlib_codec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.aliases: None -> <PyModule 'encodings.aliases' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/aliases.pyc imports=[] binaries=[] datas=[]>
+_locale: None -> <ExtensionModule '_locale' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_locale.so imports=[] binaries=[] datas=[]>
+operator: None -> <ExtensionModule 'operator' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/operator.so imports=[] binaries=[] datas=[]>
+encodings.codecs: None -> None
+codecs: None -> <PyModule 'codecs' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/codecs.pyc imports=[('__builtin__', 0, 0, -1), ('sys', 0, 0, -1), ('_codecs', 0, 0, -1), ('_codecs.*', 0, 0, -1), ('encodings', 0, 1, -1), ('encodings', 0, 0, -1)] binaries=[] datas=[]>
+encodings.encodings: None -> None
+encodings.__builtin__: None -> None
+encodings.ascii: None -> <PyModule 'encodings.ascii' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/ascii.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.base64_codec: None -> <PyModule 'encodings.base64_codec' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/base64_codec.pyc imports=[('codecs', 0, 0, -1), ('base64', 0, 0, -1)] binaries=[] datas=[]>
+encodings.big5: None -> <PyModule 'encodings.big5' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/big5.pyc imports=[('_codecs_tw', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.big5hkscs: None -> <PyModule 'encodings.big5hkscs' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/big5hkscs.pyc imports=[('_codecs_hk', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.bz2_codec: None -> <PyModule 'encodings.bz2_codec' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/bz2_codec.pyc imports=[('codecs', 0, 0, -1), ('bz2', 0, 0, -1)] binaries=[] datas=[]>
+encodings.charmap: None -> <PyModule 'encodings.charmap' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/charmap.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp037: None -> <PyModule 'encodings.cp037' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp037.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1006: None -> <PyModule 'encodings.cp1006' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1006.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1026: None -> <PyModule 'encodings.cp1026' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1026.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1140: None -> <PyModule 'encodings.cp1140' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1140.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1250: None -> <PyModule 'encodings.cp1250' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1250.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1251: None -> <PyModule 'encodings.cp1251' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1251.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1252: None -> <PyModule 'encodings.cp1252' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1252.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1253: None -> <PyModule 'encodings.cp1253' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1253.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1254: None -> <PyModule 'encodings.cp1254' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1254.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1255: None -> <PyModule 'encodings.cp1255' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1255.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1256: None -> <PyModule 'encodings.cp1256' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1256.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1257: None -> <PyModule 'encodings.cp1257' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1257.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp1258: None -> <PyModule 'encodings.cp1258' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp1258.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp424: None -> <PyModule 'encodings.cp424' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp424.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp437: None -> <PyModule 'encodings.cp437' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp437.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp500: None -> <PyModule 'encodings.cp500' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp500.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp737: None -> <PyModule 'encodings.cp737' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp737.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp775: None -> <PyModule 'encodings.cp775' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp775.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp850: None -> <PyModule 'encodings.cp850' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp850.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp852: None -> <PyModule 'encodings.cp852' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp852.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp855: None -> <PyModule 'encodings.cp855' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp855.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp856: None -> <PyModule 'encodings.cp856' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp856.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp857: None -> <PyModule 'encodings.cp857' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp857.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp860: None -> <PyModule 'encodings.cp860' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp860.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp861: None -> <PyModule 'encodings.cp861' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp861.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp862: None -> <PyModule 'encodings.cp862' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp862.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp863: None -> <PyModule 'encodings.cp863' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp863.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp864: None -> <PyModule 'encodings.cp864' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp864.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp865: None -> <PyModule 'encodings.cp865' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp865.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp866: None -> <PyModule 'encodings.cp866' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp866.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp869: None -> <PyModule 'encodings.cp869' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp869.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp874: None -> <PyModule 'encodings.cp874' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp874.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp875: None -> <PyModule 'encodings.cp875' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp875.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp932: None -> <PyModule 'encodings.cp932' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp932.pyc imports=[('_codecs_jp', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp949: None -> <PyModule 'encodings.cp949' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp949.pyc imports=[('_codecs_kr', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.cp950: None -> <PyModule 'encodings.cp950' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/cp950.pyc imports=[('_codecs_tw', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.euc_jis_2004: None -> <PyModule 'encodings.euc_jis_2004' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/euc_jis_2004.pyc imports=[('_codecs_jp', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.euc_jisx0213: None -> <PyModule 'encodings.euc_jisx0213' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/euc_jisx0213.pyc imports=[('_codecs_jp', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.euc_jp: None -> <PyModule 'encodings.euc_jp' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/euc_jp.pyc imports=[('_codecs_jp', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.euc_kr: None -> <PyModule 'encodings.euc_kr' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/euc_kr.pyc imports=[('_codecs_kr', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.gb18030: None -> <PyModule 'encodings.gb18030' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/gb18030.pyc imports=[('_codecs_cn', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.gb2312: None -> <PyModule 'encodings.gb2312' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/gb2312.pyc imports=[('_codecs_cn', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.gbk: None -> <PyModule 'encodings.gbk' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/gbk.pyc imports=[('_codecs_cn', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.hex_codec: None -> <PyModule 'encodings.hex_codec' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/hex_codec.pyc imports=[('codecs', 0, 0, -1), ('binascii', 0, 0, -1)] binaries=[] datas=[]>
+encodings.hp_roman8: None -> <PyModule 'encodings.hp_roman8' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/hp_roman8.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.hz: None -> <PyModule 'encodings.hz' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/hz.pyc imports=[('_codecs_cn', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.idna: None -> <PyModule 'encodings.idna' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/idna.pyc imports=[('stringprep', 0, 0, -1), ('re', 0, 0, -1), ('codecs', 0, 0, -1), ('unicodedata', 0, 0, -1), ('unicodedata.ucd_3_2_0', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso2022_jp: None -> <PyModule 'encodings.iso2022_jp' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso2022_jp.pyc imports=[('_codecs_iso2022', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso2022_jp_1: None -> <PyModule 'encodings.iso2022_jp_1' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso2022_jp_1.pyc imports=[('_codecs_iso2022', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso2022_jp_2: None -> <PyModule 'encodings.iso2022_jp_2' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso2022_jp_2.pyc imports=[('_codecs_iso2022', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso2022_jp_2004: None -> <PyModule 'encodings.iso2022_jp_2004' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso2022_jp_2004.pyc imports=[('_codecs_iso2022', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso2022_jp_3: None -> <PyModule 'encodings.iso2022_jp_3' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso2022_jp_3.pyc imports=[('_codecs_iso2022', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso2022_jp_ext: None -> <PyModule 'encodings.iso2022_jp_ext' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso2022_jp_ext.pyc imports=[('_codecs_iso2022', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso2022_kr: None -> <PyModule 'encodings.iso2022_kr' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso2022_kr.pyc imports=[('_codecs_iso2022', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_1: None -> <PyModule 'encodings.iso8859_1' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_1.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_10: None -> <PyModule 'encodings.iso8859_10' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_10.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_11: None -> <PyModule 'encodings.iso8859_11' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_11.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_13: None -> <PyModule 'encodings.iso8859_13' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_13.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_14: None -> <PyModule 'encodings.iso8859_14' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_14.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_15: None -> <PyModule 'encodings.iso8859_15' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_15.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_16: None -> <PyModule 'encodings.iso8859_16' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_16.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_2: None -> <PyModule 'encodings.iso8859_2' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_2.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_3: None -> <PyModule 'encodings.iso8859_3' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_3.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_4: None -> <PyModule 'encodings.iso8859_4' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_4.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_5: None -> <PyModule 'encodings.iso8859_5' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_5.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_6: None -> <PyModule 'encodings.iso8859_6' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_6.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_7: None -> <PyModule 'encodings.iso8859_7' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_7.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_8: None -> <PyModule 'encodings.iso8859_8' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_8.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.iso8859_9: None -> <PyModule 'encodings.iso8859_9' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/iso8859_9.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.johab: None -> <PyModule 'encodings.johab' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/johab.pyc imports=[('_codecs_kr', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.koi8_r: None -> <PyModule 'encodings.koi8_r' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/koi8_r.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.koi8_u: None -> <PyModule 'encodings.koi8_u' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/koi8_u.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.latin_1: None -> <PyModule 'encodings.latin_1' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/latin_1.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_arabic: None -> <PyModule 'encodings.mac_arabic' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_arabic.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_centeuro: None -> <PyModule 'encodings.mac_centeuro' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_centeuro.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_croatian: None -> <PyModule 'encodings.mac_croatian' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_croatian.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_cyrillic: None -> <PyModule 'encodings.mac_cyrillic' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_cyrillic.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_farsi: None -> <PyModule 'encodings.mac_farsi' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_farsi.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_greek: None -> <PyModule 'encodings.mac_greek' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_greek.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_iceland: None -> <PyModule 'encodings.mac_iceland' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_iceland.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_latin2: None -> <PyModule 'encodings.mac_latin2' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_latin2.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_roman: None -> <PyModule 'encodings.mac_roman' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_roman.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_romanian: None -> <PyModule 'encodings.mac_romanian' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_romanian.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mac_turkish: None -> <PyModule 'encodings.mac_turkish' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mac_turkish.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.mbcs: None -> <PyModule 'encodings.mbcs' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/mbcs.pyc imports=[('codecs', 0, 0, -1), ('codecs.mbcs_encode', 0, 0, -1), ('codecs.mbcs_decode', 0, 0, -1), ('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.palmos: None -> <PyModule 'encodings.palmos' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/palmos.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.ptcp154: None -> <PyModule 'encodings.ptcp154' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/ptcp154.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.punycode: None -> <PyModule 'encodings.punycode' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/punycode.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.quopri_codec: None -> <PyModule 'encodings.quopri_codec' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/quopri_codec.pyc imports=[('codecs', 0, 0, -1), ('quopri', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('StringIO', 0, 1, -1), ('StringIO.StringIO', 0, 1, -1)] binaries=[] datas=[]>
+encodings.raw_unicode_escape: None -> <PyModule 'encodings.raw_unicode_escape' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/raw_unicode_escape.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.rot_13: None -> <PyModule 'encodings.rot_13' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/rot_13.pyc imports=[('codecs', 0, 0, -1), ('sys', 0, 1, -1)] binaries=[] datas=[]>
+encodings.shift_jis: None -> <PyModule 'encodings.shift_jis' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/shift_jis.pyc imports=[('_codecs_jp', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.shift_jis_2004: None -> <PyModule 'encodings.shift_jis_2004' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/shift_jis_2004.pyc imports=[('_codecs_jp', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.shift_jisx0213: None -> <PyModule 'encodings.shift_jisx0213' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/shift_jisx0213.pyc imports=[('_codecs_jp', 0, 0, -1), ('codecs', 0, 0, -1), ('_multibytecodec', 0, 0, -1)] binaries=[] datas=[]>
+encodings.string_escape: None -> <PyModule 'encodings.string_escape' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/string_escape.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.tis_620: None -> <PyModule 'encodings.tis_620' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/tis_620.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.undefined: None -> <PyModule 'encodings.undefined' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/undefined.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.unicode_escape: None -> <PyModule 'encodings.unicode_escape' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/unicode_escape.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.unicode_internal: None -> <PyModule 'encodings.unicode_internal' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/unicode_internal.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.utf_16: None -> <PyModule 'encodings.utf_16' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/utf_16.pyc imports=[('codecs', 0, 0, -1), ('sys', 0, 0, -1)] binaries=[] datas=[]>
+encodings.utf_16_be: None -> <PyModule 'encodings.utf_16_be' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/utf_16_be.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.utf_16_le: None -> <PyModule 'encodings.utf_16_le' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/utf_16_le.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.utf_32: None -> <PyModule 'encodings.utf_32' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/utf_32.pyc imports=[('codecs', 0, 0, -1), ('sys', 0, 0, -1)] binaries=[] datas=[]>
+encodings.utf_32_be: None -> <PyModule 'encodings.utf_32_be' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/utf_32_be.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.utf_32_le: None -> <PyModule 'encodings.utf_32_le' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/utf_32_le.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.utf_7: None -> <PyModule 'encodings.utf_7' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/utf_7.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.utf_8: None -> <PyModule 'encodings.utf_8' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/utf_8.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.utf_8_sig: None -> <PyModule 'encodings.utf_8_sig' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/utf_8_sig.pyc imports=[('codecs', 0, 0, -1)] binaries=[] datas=[]>
+encodings.uu_codec: None -> <PyModule 'encodings.uu_codec' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/uu_codec.pyc imports=[('codecs', 0, 0, -1), ('binascii', 0, 0, -1), ('cStringIO', 1, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('binascii', 1, 0, -1), ('binascii.b2a_uu', 1, 0, -1), ('cStringIO', 1, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('binascii', 1, 0, -1), ('binascii.a2b_uu', 1, 0, -1)] binaries=[] datas=[]>
+encodings.zlib_codec: None -> <PyModule 'encodings.zlib_codec' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/encodings/zlib_codec.pyc imports=[('codecs', 0, 0, -1), ('zlib', 0, 0, -1)] binaries=[] datas=[]>
+_codecs: None -> <BuiltinModule '_codecs' None imports=[] binaries=[] datas=[]>
+encodings.base64: None -> None
+base64: None -> <PyModule 'base64' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/base64.pyc imports=[('re', 0, 0, -1), ('struct', 0, 0, -1), ('binascii', 0, 0, -1), ('sys', 1, 0, -1), ('getopt', 1, 0, -1)] binaries=[] datas=[]>
+binascii: None -> <ExtensionModule 'binascii' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/binascii.so imports=[] binaries=[] datas=[]>
+getopt: None -> <PyModule 'getopt' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/getopt.pyc imports=[('os', 0, 0, -1), ('sys', 0, 1, -1)] binaries=[] datas=[]>
+encodings._codecs_tw: None -> None
+_codecs_tw: None -> <ExtensionModule '_codecs_tw' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_codecs_tw.so imports=[] binaries=[] datas=[]>
+encodings._multibytecodec: None -> None
+_multibytecodec: None -> <ExtensionModule '_multibytecodec' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_multibytecodec.so imports=[] binaries=[] datas=[]>
+encodings._codecs_hk: None -> None
+_codecs_hk: None -> <ExtensionModule '_codecs_hk' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_codecs_hk.so imports=[] binaries=[] datas=[]>
+encodings.bz2: None -> None
+bz2: None -> <ExtensionModule 'bz2' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/bz2.so imports=[] binaries=[] datas=[]>
+encodings._codecs_jp: None -> None
+_codecs_jp: None -> <ExtensionModule '_codecs_jp' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_codecs_jp.so imports=[] binaries=[] datas=[]>
+encodings._codecs_kr: None -> None
+_codecs_kr: None -> <ExtensionModule '_codecs_kr' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_codecs_kr.so imports=[] binaries=[] datas=[]>
+encodings._codecs_cn: None -> None
+_codecs_cn: None -> <ExtensionModule '_codecs_cn' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_codecs_cn.so imports=[] binaries=[] datas=[]>
+encodings.binascii: None -> None
+encodings.stringprep: None -> None
+stringprep: None -> <PyModule 'stringprep' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/stringprep.pyc imports=[('unicodedata', 0, 0, -1), ('unicodedata.ucd_3_2_0', 0, 0, -1)] binaries=[] datas=[]>
+encodings.re: None -> None
+encodings.unicodedata: None -> None
+unicodedata: None -> <ExtensionModule 'unicodedata' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/unicodedata.so imports=[] binaries=[] datas=[]>
+encodings._codecs_iso2022: None -> None
+_codecs_iso2022: None -> <ExtensionModule '_codecs_iso2022' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_codecs_iso2022.so imports=[] binaries=[] datas=[]>
+encodings.quopri: None -> None
+quopri: None -> <PyModule 'quopri' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/quopri.pyc imports=[('binascii', 0, 0, -1), ('binascii.a2b_qp', 0, 0, -1), ('binascii.b2a_qp', 0, 0, -1), ('cStringIO', 1, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('cStringIO', 1, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('sys', 1, 0, -1), ('getopt', 1, 0, -1)] binaries=[] datas=[]>
+encodings.cStringIO: None -> None
+cStringIO: None -> <ExtensionModule 'cStringIO' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/cStringIO.so imports=[('copy_reg', 0, 0, -1)] binaries=[] datas=[]>
+encodings.StringIO: None -> None
+StringIO: None -> <PyModule 'StringIO' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/StringIO.pyc imports=[('errno', 0, 0, -1), ('errno.EINVAL', 0, 0, -1), ('sys', 1, 0, -1)] binaries=[] datas=[]>
+encodings.sys: None -> None
+encodings.zlib: None -> None
+optparse: None -> <PyModule 'optparse' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/optparse.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('types', 0, 0, -1), ('textwrap', 0, 0, -1), ('gettext', 0, 0, -1), ('gettext.gettext', 0, 0, -1), ('__builtin__', 1, 1, -1)] binaries=[] datas=[]>
+textwrap: None -> <PyModule 'textwrap' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/textwrap.pyc imports=[('string', 0, 0, -1), ('re', 0, 0, -1)] binaries=[] datas=[]>
+gettext: None -> <PyModule 'gettext' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/gettext.pyc imports=[('locale', 0, 0, -1), ('copy', 0, 0, -1), ('os', 0, 0, -1), ('re', 0, 0, -1), ('struct', 0, 0, -1), ('sys', 0, 0, -1), ('errno', 0, 0, -1), ('errno.ENOENT', 0, 0, -1), ('cStringIO', 1, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('StringIO', 1, 1, -1), ('StringIO.StringIO', 1, 1, -1), ('token', 1, 0, -1), ('tokenize', 1, 0, -1), ('locale', 1, 0, -1), ('locale.normalize', 1, 0, -1), ('__builtin__', 1, 0, -1)] binaries=[] datas=[]>
+token: None -> <PyModule 'token' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/token.pyc imports=[('re', 1, 0, -1), ('sys', 1, 0, -1)] binaries=[] datas=[]>
+tokenize: None -> <PyModule 'tokenize' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/tokenize.pyc imports=[('string', 0, 0, -1), ('re', 0, 0, -1), ('token', 0, 0, -1), ('token.*', 0, 0, -1), ('token', 0, 0, -1), ('sys', 0, 1, -1)] binaries=[] datas=[]>
+_collections: None -> <ExtensionModule '_collections' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_collections.so imports=[] binaries=[] datas=[]>
+keyword: None -> <PyModule 'keyword' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/keyword.pyc imports=[('sys', 1, 0, -1), ('re', 1, 0, -1)] binaries=[] datas=[]>
+cPickle: None -> <ExtensionModule 'cPickle' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/cPickle.so imports=[('copy_reg', 0, 0, -1), ('types', 0, 0, -1), ('string', 0, 0, -1)] binaries=[] datas=[]>
+doctest: None -> <PyModule 'doctest' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/doctest.pyc imports=[('__future__', 0, 0, -1), ('sys', 0, 0, -1), ('traceback', 0, 0, -1), ('inspect', 0, 0, -1), ('linecache', 0, 0, -1), ('os', 0, 0, -1), ('re', 0, 0, -1), ('unittest', 0, 0, -1), ('difflib', 0, 0, -1), ('pdb', 0, 0, -1), ('tempfile', 0, 0, -1), ('warnings', 0, 0, -1), ('StringIO', 0, 0, -1), ('StringIO.StringIO', 0, 0, -1), ('collections', 0, 0, -1), ('collections.namedtuple', 0, 0, -1), ('types', 1, 0, -1), ('types', 1, 0, -1), ('pdb', 1, 0, -1)] binaries=[] datas=[]>
+__future__: None -> <PyModule '__future__' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/__future__.pyc imports=[] binaries=[] datas=[]>
+inspect: None -> <PyModule 'inspect' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/inspect.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('types', 0, 0, -1), ('string', 0, 0, -1), ('re', 0, 0, -1), ('dis', 0, 0, -1), ('imp', 0, 0, -1), ('tokenize', 0, 0, -1), ('linecache', 0, 0, -1), ('operator', 0, 0, -1), ('operator.attrgetter', 0, 0, -1), ('collections', 0, 0, -1), ('collections.namedtuple', 0, 0, -1)] binaries=[] datas=[]>
+unittest: None -> <PyModule 'unittest' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/unittest.pyc imports=[('time', 0, 0, -1), ('sys', 0, 0, -1), ('traceback', 0, 0, -1), ('os', 0, 0, -1), ('types', 0, 0, -1), ('__builtin__', 1, 0, -1), ('getopt', 1, 0, -1)] binaries=[] datas=[]>
+difflib: None -> <PyModule 'difflib' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/difflib.pyc imports=[('heapq', 0, 0, -1), ('collections', 0, 0, -1), ('collections.namedtuple', 0, 0, -1), ('functools', 0, 0, -1), ('functools.reduce', 0, 0, -1), ('re', 0, 0, -1), ('re', 1, 0, -1), ('doctest', 1, 0, -1), ('difflib', 1, 0, -1)] binaries=[] datas=[]>
+pdb: None -> <PyModule 'pdb' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/pdb.pyc imports=[('sys', 0, 0, -1), ('linecache', 0, 0, -1), ('cmd', 0, 0, -1), ('bdb', 0, 0, -1), ('repr', 0, 0, -1), ('repr.Repr', 0, 0, -1), ('os', 0, 0, -1), ('re', 0, 0, -1), ('pprint', 0, 0, -1), ('traceback', 0, 0, -1), ('pdb', 0, 1, -1), ('readline', 1, 0, -1), ('shlex', 1, 1, -1), ('__main__', 1, 0, -1)] binaries=[] datas=[]>
+tempfile: None -> <PyModule 'tempfile' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/tempfile.pyc imports=[('os', 0, 0, -1), ('errno', 0, 0, -1), ('random', 0, 0, -1), ('random.Random', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('StringIO', 0, 1, -1), ('StringIO.StringIO', 0, 1, -1), ('fcntl', 0, 0, -1), ('thread', 0, 0, -1), ('dummy_thread', 0, 1, -1)] binaries=[] datas=[]>
+dis: None -> <PyModule 'dis' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/dis.pyc imports=[('sys', 0, 0, -1), ('types', 0, 0, -1), ('opcode', 0, 0, -1), ('opcode.*', 0, 0, -1), ('opcode', 0, 0, -1), ('opcode.__all__', 0, 0, -1)] binaries=[] datas=[]>
+opcode: None -> <PyModule 'opcode' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/opcode.pyc imports=[] binaries=[] datas=[]>
+heapq: None -> <PyModule 'heapq' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/heapq.pyc imports=[('itertools', 0, 0, -1), ('itertools.islice', 0, 0, -1), ('itertools.repeat', 0, 0, -1), ('itertools.count', 0, 0, -1), ('itertools.imap', 0, 0, -1), ('itertools.izip', 0, 0, -1), ('itertools.tee', 0, 0, -1), ('operator', 0, 0, -1), ('operator.itemgetter', 0, 0, -1), ('operator.neg', 0, 0, -1), ('bisect', 0, 0, -1), ('_heapq', 0, 0, -1), ('_heapq.heappush', 0, 0, -1), ('_heapq.heappop', 0, 0, -1), ('_heapq.heapify', 0, 0, -1), ('_heapq.heapreplace', 0, 0, -1), ('_heapq.nlargest', 0, 0, -1), ('_heapq.nsmallest', 0, 0, -1), ('_heapq.heappushpop', 0, 0, -1), ('doctest', 0, 1, -1)] binaries=[] datas=[]>
+bisect: None -> <PyModule 'bisect' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/bisect.pyc imports=[('_bisect', 0, 0, -1), ('_bisect.bisect_right', 0, 0, -1), ('_bisect.bisect_left', 0, 0, -1), ('_bisect.insort_left', 0, 0, -1), ('_bisect.insort_right', 0, 0, -1), ('_bisect.insort', 0, 0, -1), ('_bisect.bisect', 0, 0, -1)] binaries=[] datas=[]>
+_heapq: None -> <ExtensionModule '_heapq' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_heapq.so imports=[] binaries=[] datas=[]>
+_bisect: None -> <ExtensionModule '_bisect' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_bisect.so imports=[] binaries=[] datas=[]>
+cmd: None -> <PyModule 'cmd' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/cmd.pyc imports=[('string', 0, 0, -1), ('sys', 1, 0, -1), ('readline', 1, 1, -1), ('readline', 1, 1, -1), ('readline', 1, 1, -1)] binaries=[] datas=[]>
+bdb: None -> <PyModule 'bdb' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/bdb.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('types', 0, 0, -1), ('linecache', 1, 0, -1), ('linecache', 1, 0, -1), ('linecache', 1, 0, -1), ('repr', 1, 0, -1), ('__main__', 1, 1, -1), ('__main__', 1, 1, -1), ('linecache', 1, 0, -1)] binaries=[] datas=[]>
+pprint: None -> <PyModule 'pprint' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/pprint.pyc imports=[('sys', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('time', 1, 0, -1)] binaries=[] datas=[]>
+readline: None -> <ExtensionModule 'readline' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/readline.so imports=[] binaries=[] datas=[]>
+shlex: None -> <PyModule 'shlex' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/shlex.pyc imports=[('os.path', 0, 0, -1), ('sys', 0, 0, -1), ('collections', 0, 0, -1), ('collections.deque', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('StringIO', 0, 1, -1), ('StringIO.StringIO', 0, 1, -1)] binaries=[] datas=[]>
+math: None -> <ExtensionModule 'math' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/math.so imports=[] binaries=[] datas=[]>
+_random: None -> <ExtensionModule '_random' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_random.so imports=[] binaries=[] datas=[]>
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+__main__: <PyScript '__main__' /Users/rdsears/Coding/pyinstaller/support/_pyi_bootstrap.py imports=[('archive', 0, 0, -1), ('iu', 0, 0, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('site', 0, 0, -1)] binaries=[] datas=[]> -> <PyScript '__main__' /Users/rdsears/Coding/pyinstaller/PyInstaller/loader/archive.py imports=[('marshal', 0, 0, -1), ('struct', 0, 0, -1), ('imp', 0, 0, -1), ('sys', 0, 0, -1), ('iu', 0, 0, -1), ('imp', 1, 0, -1), ('os', 1, 1, -1), ('zlib', 1, 1, -1), ('AES', 1, 1, -1), ('os', 1, 1, -1), ('os', 1, 1, -1)] binaries=[] datas=[]>
+AES: None -> None
+  DEL AES
+_emx_link: None -> None
+  DEL _emx_link
+_emx_link: None -> None
+  DEL _emx_link
+nt: None -> None
+  DEL nt
+nt: None -> None
+  DEL nt
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+msvcrt: None -> None
+  DEL msvcrt
+_subprocess: None -> None
+  DEL _subprocess
+_subprocess: None -> None
+  DEL _subprocess
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+__main__: <PyScript '__main__' /Users/rdsears/Coding/pyinstaller/PyInstaller/loader/archive.py imports=[('marshal', 0, 0, -1), ('struct', 0, 0, -1), ('imp', 0, 0, -1), ('sys', 0, 0, -1), ('iu', 0, 0, -1), ('imp', 1, 0, -1), ('os', 1, 1, -1), ('zlib', 1, 1, -1), ('AES', 1, 1, -1), ('os', 1, 1, -1), ('os', 1, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' /Users/rdsears/Coding/pyinstaller/PyInstaller/loader/carchive.py imports=[('archive', 0, 0, -1), ('struct', 0, 0, -1), ('sys', 0, 0, -1), ('zlib', 0, 0, -1), ('AES', 1, 1, -1), ('AES', 1, 1, -1), ('Crypt', 1, 1, -1)] binaries=[] datas=[]>
+AES: None -> None
+  DEL AES
+AES: None -> None
+  DEL AES
+Crypt: None -> None
+  DEL Crypt
+AES: None -> None
+  DEL AES
+_emx_link: None -> None
+  DEL _emx_link
+_emx_link: None -> None
+  DEL _emx_link
+nt: None -> None
+  DEL nt
+nt: None -> None
+  DEL nt
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+msvcrt: None -> None
+  DEL msvcrt
+_subprocess: None -> None
+  DEL _subprocess
+_subprocess: None -> None
+  DEL _subprocess
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+__main__: <PyScript '__main__' /Users/rdsears/Coding/pyinstaller/PyInstaller/loader/carchive.py imports=[('archive', 0, 0, -1), ('struct', 0, 0, -1), ('sys', 0, 0, -1), ('zlib', 0, 0, -1), ('AES', 1, 1, -1), ('AES', 1, 1, -1), ('Crypt', 1, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' /Users/rdsears/Coding/pyinstaller/PyInstaller/loader/iu.py imports=[('sys', 0, 0, -1), ('imp', 0, 0, -1), ('marshal', 0, 0, -1), ('zipimport', 0, 0, -1), ('__builtin__', 1, 0, -1), ('posix', 1, 1, -1), ('posix.stat', 1, 1, -1), ('posix.getcwd', 1, 1, -1), ('posix.environ', 1, 1, -1), ('posix.listdir', 1, 1, -1), ('nt', 1, 1, -1), ('nt.stat', 1, 1, -1), ('nt.getcwd', 1, 1, -1), ('nt.environ', 1, 1, -1), ('nt.listdir', 1, 1, -1)] binaries=[] datas=[]>
+nt: None -> None
+  DEL nt
+nt: None -> None
+  DEL nt
+nt: None -> None
+  DEL nt
+nt: None -> None
+  DEL nt
+nt: None -> None
+  DEL nt
+__main__: <PyScript '__main__' /Users/rdsears/Coding/pyinstaller/PyInstaller/loader/iu.py imports=[('sys', 0, 0, -1), ('imp', 0, 0, -1), ('marshal', 0, 0, -1), ('zipimport', 0, 0, -1), ('__builtin__', 1, 0, -1), ('posix', 1, 1, -1), ('posix.stat', 1, 1, -1), ('posix.getcwd', 1, 1, -1), ('posix.environ', 1, 1, -1), ('posix.listdir', 1, 1, -1), ('nt', 1, 1, -1), ('nt.stat', 1, 1, -1), ('nt.getcwd', 1, 1, -1), ('nt.environ', 1, 1, -1), ('nt.listdir', 1, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' /tmp/gather.py imports=[('AppKit', 0, 0, -1)] binaries=[] datas=[]>
+AppKit: None -> <PkgModule 'AppKit' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/AppKit/__init__.pyc imports=[('objc', 0, 0, -1), ('Foundation', 0, 0, -1), ('Foundation.*', 0, 0, -1), ('AppKit._inlines', 0, 0, -1), ('AppKit._inlines._inline_list_', 0, 0, -1), ('AppKit._nsapp', 0, 0, -1), ('AppKit._nsapp.NSApp', 0, 0, -1), ('AppKit._appmain', 0, 0, -1), ('AppKit._appmain.*', 0, 0, -1), ('AppKit._nsbezierpath', 0, 0, -1), ('AppKit._nsbezierpath.*', 0, 0, -1), ('AppKit._nsfont', 0, 0, -1), ('AppKit._nsfont.*', 0, 0, -1), ('AppKit._nsquickdrawview', 0, 0, -1), ('AppKit._nsquickdrawview.*', 0, 0, -1), ('AppKit._nsbezierpath', 0, 0, -1), ('AppKit._nsbezierpath.*', 0, 0, -1), ('AppKit._nsview', 0, 0, -1), ('AppKit._nsview.*', 0, 0, -1), ('AppKit._nsbitmap', 0, 0, -1), ('AppKit._nsbitmap.*', 0, 0, -1), ('AppKit._nswindow', 0, 0, -1), ('AppKit._nswindow.*', 0, 0, -1)] binaries=[] datas=[]>
+AppKit.objc: None -> None
+objc: None -> <PkgModule 'objc' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/__init__.pyc imports=[('_convenience', 0, 0, -1), ('_convenience.*', 0, 0, -1), ('_bridgesupport', 0, 0, -1), ('_bridgesupport.*', 0, 0, -1), ('_dyld', 0, 0, -1), ('_dyld.*', 0, 0, -1), ('_protocols', 0, 0, -1), ('_protocols.*', 0, 0, -1), ('_descriptors', 0, 0, -1), ('_descriptors.*', 0, 0, -1), ('_category', 0, 0, -1), ('_category.*', 0, 0, -1), ('_bridges', 0, 0, -1), ('_bridges.*', 0, 0, -1), ('_compat', 0, 0, -1), ('_compat.*', 0, 0, -1), ('_pythonify', 0, 0, -1), ('_pythonify.*', 0, 0, -1), ('_functions', 0, 0, -1), ('_functions.*', 0, 0, -1), ('_locking', 0, 0, -1), ('_locking.*', 0, 0, -1), ('_context', 0, 0, -1), ('_context.*', 0, 0, -1), ('_pycoder', 0, 0, -1), ('atexit', 0, 0, -1), ('copy_reg', 1, 0, -1), ('_objc', 1, 0, -1)] binaries=[] datas=[]>
+AppKit.Foundation: None -> None
+Foundation: None -> <PkgModule 'Foundation' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/__init__.pyc imports=[('objc', 0, 0, -1), ('CoreFoundation', 0, 0, -1), ('CoreFoundation.*', 0, 0, -1), ('Foundation._inlines', 0, 0, -1), ('Foundation._inlines._inline_list_', 0, 0, -1), ('Foundation._functiondefines', 0, 0, -1), ('Foundation._functiondefines.*', 0, 0, -1), ('Foundation._NSDecimal', 0, 0, -1), ('Foundation._NSDecimal.*', 0, 0, -1), ('Foundation._nsinvocation', 0, 0, -1), ('Foundation._nsinvocation.*', 0, 0, -1), ('Foundation._functioncallbacks', 0, 0, -1), ('Foundation._functioncallbacks.*', 0, 0, -1), ('Foundation._typecode', 0, 0, -1), ('Foundation._typecode.*', 0, 0, -1), ('Foundation._nscoder', 0, 0, -1), ('Foundation._nscoder.*', 0, 0, -1), ('Foundation._data', 0, 0, -1), ('Foundation._data.*', 0, 0, -1), ('Foundation._netservice', 0, 0, -1), ('Foundation._netservice.*', 0, 0, -1), ('Foundation._string', 0, 0, -1), ('Foundation._string.*', 0, 0, -1), ('Foundation._nsobject', 0, 0, -1), ('Foundation._nsindexset', 0, 0, -1), ('sys', 0, 0, -1)] binaries=[] datas=[]>
+AppKit.AppKit: None -> None
+AppKit._inlines: None -> <ExtensionModule 'AppKit._inlines' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/AppKit/_inlines.so imports=[] binaries=[] datas=[]>
+AppKit._nsapp: None -> <PyModule 'AppKit._nsapp' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/AppKit/_nsapp.pyc imports=[('objc', 0, 0, -1), ('AppKit', 0, 0, -1), ('AppKit.__bundle__', 0, 0, -1)] binaries=[] datas=[]>
+AppKit._appmain: None -> <ExtensionModule 'AppKit._appmain' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/AppKit/_appmain.so imports=[] binaries=[] datas=[]>
+AppKit._nsbezierpath: None -> <ExtensionModule 'AppKit._nsbezierpath' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/AppKit/_nsbezierpath.so imports=[] binaries=[] datas=[]>
+AppKit._nsfont: None -> <ExtensionModule 'AppKit._nsfont' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/AppKit/_nsfont.so imports=[] binaries=[] datas=[]>
+AppKit._nsquickdrawview: None -> <ExtensionModule 'AppKit._nsquickdrawview' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/AppKit/_nsquickdrawview.so imports=[] binaries=[] datas=[]>
+AppKit._nsview: None -> <ExtensionModule 'AppKit._nsview' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/AppKit/_nsview.so imports=[] binaries=[] datas=[]>
+AppKit._nsbitmap: None -> <ExtensionModule 'AppKit._nsbitmap' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/AppKit/_nsbitmap.so imports=[] binaries=[] datas=[]>
+AppKit._nswindow: None -> <ExtensionModule 'AppKit._nswindow' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/AppKit/_nswindow.so imports=[] binaries=[] datas=[]>
+objc._convenience: None -> <PyModule 'objc._convenience' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_convenience.pyc imports=[('_objc', 0, 0, -1), ('_objc.setClassExtender', 0, 0, -1), ('_objc.selector', 0, 0, -1), ('_objc.lookUpClass', 0, 0, -1), ('_objc.currentBundle', 0, 0, -1), ('_objc.repythonify', 0, 0, -1), ('_objc.splitSignature', 0, 0, -1), ('_objc._block_call', 0, 0, -1), ('itertools', 0, 0, -1), ('itertools.imap', 0, 0, -1), ('sys', 0, 0, -1), ('traceback', 1, 0, -1), ('warnings', 1, 1, -1), ('Foundation', 1, 0, -1), ('Foundation.NSNotFound', 1, 0, -1)] binaries=[] datas=[]>
+objc._bridgesupport: None -> <PyModule 'objc._bridgesupport' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_bridgesupport.pyc imports=[('objc', 0, 0, -1), ('pkg_resources', 0, 0, -1), ('new', 0, 0, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('struct', 0, 0, -1), ('textwrap', 0, 0, -1), ('objc._bindglobals', 0, 0, -1), ('objc', 0, 0, -1), ('objc.function', 0, 0, -1), ('objc.registerMetaDataForSelector', 0, 0, -1), ('xml.etree.cElementTree', 0, 0, -1), ('cElementTree', 0, 1, -1), ('elementtree.ElementTree', 0, 1, -1), ('warnings', 1, 1, -1)] binaries=[] datas=[]>
+objc._dyld: None -> <PyModule 'objc._dyld' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_dyld.pyc imports=[('os', 0, 0, -1), ('sys', 0, 0, -1), ('_framework', 0, 0, -1), ('_framework.infoForFramework', 0, 0, -1)] binaries=[] datas=[]>
+objc._protocols: None -> <PyModule 'objc._protocols' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_protocols.pyc imports=[('_objc', 0, 0, -1)] binaries=[] datas=[]>
+objc._descriptors: None -> <PyModule 'objc._descriptors' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_descriptors.pyc imports=[('_objc', 0, 0, -1), ('_objc.ivar', 0, 0, -1), ('_objc.selector', 0, 0, -1), ('_objc._makeClosure', 0, 0, -1), ('_objc.selector', 0, 0, -1), ('_objc._C_SEL', 0, 0, -1), ('_objc._C_ID', 0, 0, -1), ('sys', 0, 0, -1), ('textwrap', 0, 0, -1), ('inspect', 1, 0, -1), ('inspect.getargspec', 1, 0, -1), ('warnings', 1, 0, -1)] binaries=[] datas=[]>
+objc._category: None -> <PyModule 'objc._category' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_category.pyc imports=[('_objc', 0, 0, -1), ('_objc.selector', 0, 0, -1), ('_objc.classAddMethods', 0, 0, -1), ('_objc.objc_class', 0, 0, -1), ('_objc.ivar', 0, 0, -1), ('types', 0, 0, -1), ('types.FunctionType', 0, 0, -1), ('types.MethodType', 0, 0, -1)] binaries=[] datas=[]>
+objc._bridges: None -> <PyModule 'objc._bridges' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_bridges.pyc imports=[('_objc', 0, 0, -1), ('_objc.*', 0, 0, -1), ('_objc', 0, 0, -1), ('struct', 0, 0, -1)] binaries=[] datas=[]>
+objc._compat: None -> <PyModule 'objc._compat' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_compat.pyc imports=[('warnings', 1, 0, -1), ('objc', 1, 0, -1), ('os', 1, 0, -1), ('sys', 1, 0, -1), ('warnings', 1, 0, -1), ('Foundation', 1, 0, -1), ('Foundation.NSBundle', 1, 0, -1)] binaries=[] datas=[]>
+objc._pythonify: None -> <PyModule 'objc._pythonify' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_pythonify.pyc imports=[('_objc', 0, 0, -1), ('Foundation', 1, 1, -1), ('warnings', 1, 1, -1)] binaries=[] datas=[]>
+objc._functions: None -> <PyModule 'objc._functions' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_functions.pyc imports=[('os', 0, 0, -1), ('sys', 0, 0, -1), ('_objc', 1, 0, -1), ('_objc._inject', 1, 0, -1), ('_dyld', 1, 0, -1), ('_dyld.dyld_find', 1, 0, -1), ('_objc', 1, 0, -1), ('_objc.selector', 1, 0, -1)] binaries=[] datas=[]>
+objc._locking: None -> <PyModule 'objc._locking' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_locking.pyc imports=[('objc', 0, 0, -1)] binaries=[] datas=[]>
+objc._context: None -> <PyModule 'objc._context' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_context.pyc imports=[] binaries=[] datas=[]>
+objc._pycoder: None -> <PyModule 'objc._pycoder' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_pycoder.pyc imports=[('objc', 0, 0, -1), ('types', 0, 0, -1), ('types.*', 0, 0, -1), ('copy_reg', 0, 0, -1), ('copy', 0, 0, -1), ('sys', 0, 0, -1), ('pickle', 0, 0, -1), ('pickle.PicklingError', 0, 0, -1), ('pickle.UnpicklingError', 0, 0, -1), ('pickle.whichmodule', 0, 0, -1)] binaries=[] datas=[]>
+objc.atexit: None -> None
+atexit: None -> <PyModule 'atexit' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/atexit.pyc imports=[('sys', 0, 0, -1), ('traceback', 1, 1, -1)] binaries=[] datas=[]>
+objc.copy_reg: None -> None
+objc._objc: None -> <ExtensionModule 'objc._objc' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_objc.so imports=[] binaries=[] datas=[]>
+objc.itertools: None -> None
+objc.sys: None -> None
+objc.traceback: None -> None
+objc.warnings: None -> None
+objc.Foundation: None -> None
+Foundation.NSNotFound: None -> None
+  DEL Foundation.NSNotFound
+_emx_link: None -> None
+  DEL _emx_link
+_emx_link: None -> None
+  DEL _emx_link
+nt: None -> None
+  DEL nt
+nt: None -> None
+  DEL nt
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+msvcrt: None -> None
+  DEL msvcrt
+_subprocess: None -> None
+  DEL _subprocess
+_subprocess: None -> None
+  DEL _subprocess
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+Foundation.objc: None -> None
+Foundation.CoreFoundation: None -> None
+CoreFoundation: None -> <PkgModule 'CoreFoundation' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/__init__.pyc imports=[('objc', 0, 0, -1), ('CoreFoundation._inlines', 0, 0, -1), ('CoreFoundation._CFBag', 0, 0, -1), ('CoreFoundation._CFBag.*', 0, 0, -1), ('CoreFoundation._CFBinaryHeap', 0, 0, -1), ('CoreFoundation._CFBinaryHeap.*', 0, 0, -1), ('CoreFoundation._CFBitVector', 0, 0, -1), ('CoreFoundation._CFBitVector.*', 0, 0, -1), ('CoreFoundation._CFCalendar', 0, 0, -1), ('CoreFoundation._CFCalendar.*', 0, 0, -1), ('CoreFoundation._CFDictionary', 0, 0, -1), ('CoreFoundation._CFDictionary.*', 0, 0, -1), ('CoreFoundation._CFTree', 0, 0, -1), ('CoreFoundation._CFTree.*', 0, 0, -1), ('CoreFoundation._CFFileDescriptor', 0, 0, -1), ('CoreFoundation._CFFileDescriptor.*', 0, 0, -1), ('CoreFoundation._CFMachPort', 0, 0, -1), ('CoreFoundation._CFMachPort.*', 0, 0, -1), ('CoreFoundation._CFMessagePort', 0, 0, -1), ('CoreFoundation._CFMessagePort.*', 0, 0, -1), ('CoreFoundation._CFNumber', 0, 0, -1), ('CoreFoundation._CFNumber.*', 0, 0, -1), ('CoreFoundation._CFReadStream', 0, 0, -1), ('CoreFoundation._CFReadStream.*', 0, 0, -1), ('CoreFoundation._CFRunLoopObserver', 0, 0, -1), ('CoreFoundation._CFRunLoopObserver.*', 0, 0, -1), ('CoreFoundation._CFRunLoopTimer', 0, 0, -1), ('CoreFoundation._CFRunLoopTimer.*', 0, 0, -1), ('CoreFoundation._CFWriteStream', 0, 0, -1), ('CoreFoundation._CFWriteStream.*', 0, 0, -1), ('CoreFoundation._CFRunLoopObserver', 0, 0, -1), ('CoreFoundation._CFRunLoopObserver.*', 0, 0, -1), ('CoreFoundation._CFRunLoopSource', 0, 0, -1), ('CoreFoundation._CFRunLoopSource.*', 0, 0, -1), ('CoreFoundation._CFRunLoopTimer', 0, 0, -1), ('CoreFoundation._CFRunLoopTimer.*', 0, 0, -1), ('CoreFoundation._CFSet', 0, 0, -1), ('CoreFoundation._CFSet.*', 0, 0, -1), ('CoreFoundation._CFSocket', 0, 0, -1), ('CoreFoundation._CFSocket.*', 0, 0, -1)] binaries=[] datas=[]>
+Foundation.Foundation: None -> None
+Foundation._inlines: None -> <ExtensionModule 'Foundation._inlines' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_inlines.so imports=[] binaries=[] datas=[]>
+Foundation._functiondefines: None -> <PyModule 'Foundation._functiondefines' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_functiondefines.pyc imports=[('Foundation', 0, 0, -1), ('Foundation.NSBundle', 0, 0, -1)] binaries=[] datas=[]>
+Foundation._NSDecimal: None -> <ExtensionModule 'Foundation._NSDecimal' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_NSDecimal.so imports=[] binaries=[] datas=[]>
+Foundation._nsinvocation: None -> <ExtensionModule 'Foundation._nsinvocation' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_nsinvocation.so imports=[] binaries=[] datas=[]>
+Foundation._functioncallbacks: None -> <ExtensionModule 'Foundation._functioncallbacks' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_functioncallbacks.so imports=[] binaries=[] datas=[]>
+Foundation._typecode: None -> <ExtensionModule 'Foundation._typecode' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_typecode.so imports=[] binaries=[] datas=[]>
+Foundation._nscoder: None -> <ExtensionModule 'Foundation._nscoder' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_nscoder.so imports=[] binaries=[] datas=[]>
+Foundation._data: None -> <ExtensionModule 'Foundation._data' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_data.so imports=[] binaries=[] datas=[]>
+Foundation._netservice: None -> <ExtensionModule 'Foundation._netservice' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_netservice.so imports=[] binaries=[] datas=[]>
+Foundation._string: None -> <ExtensionModule 'Foundation._string' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_string.so imports=[] binaries=[] datas=[]>
+Foundation._nsobject: None -> <PyModule 'Foundation._nsobject' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_nsobject.pyc imports=[('objc', 0, 0, -1), ('sys', 0, 0, -1), ('traceback', 1, 0, -1)] binaries=[] datas=[]>
+Foundation._nsindexset: None -> <PyModule 'Foundation._nsindexset' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/Foundation/_nsindexset.pyc imports=[('objc', 0, 0, -1)] binaries=[] datas=[]>
+Foundation.sys: None -> None
+CoreFoundation.objc: None -> None
+CoreFoundation.CoreFoundation: None -> None
+CoreFoundation._inlines: None -> <ExtensionModule 'CoreFoundation._inlines' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_inlines.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFBag: None -> <ExtensionModule 'CoreFoundation._CFBag' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFBag.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFBinaryHeap: None -> <ExtensionModule 'CoreFoundation._CFBinaryHeap' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFBinaryHeap.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFBitVector: None -> <ExtensionModule 'CoreFoundation._CFBitVector' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFBitVector.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFCalendar: None -> <ExtensionModule 'CoreFoundation._CFCalendar' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFCalendar.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFDictionary: None -> <ExtensionModule 'CoreFoundation._CFDictionary' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFDictionary.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFTree: None -> <ExtensionModule 'CoreFoundation._CFTree' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFTree.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFFileDescriptor: None -> <ExtensionModule 'CoreFoundation._CFFileDescriptor' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFFileDescriptor.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFMachPort: None -> <ExtensionModule 'CoreFoundation._CFMachPort' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFMachPort.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFMessagePort: None -> <ExtensionModule 'CoreFoundation._CFMessagePort' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFMessagePort.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFNumber: None -> <ExtensionModule 'CoreFoundation._CFNumber' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFNumber.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFReadStream: None -> <ExtensionModule 'CoreFoundation._CFReadStream' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFReadStream.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFRunLoopObserver: None -> <ExtensionModule 'CoreFoundation._CFRunLoopObserver' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFRunLoopObserver.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFRunLoopTimer: None -> <ExtensionModule 'CoreFoundation._CFRunLoopTimer' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFRunLoopTimer.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFWriteStream: None -> <ExtensionModule 'CoreFoundation._CFWriteStream' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFWriteStream.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFRunLoopSource: None -> <ExtensionModule 'CoreFoundation._CFRunLoopSource' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFRunLoopSource.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFSet: None -> <ExtensionModule 'CoreFoundation._CFSet' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFSet.so imports=[] binaries=[] datas=[]>
+CoreFoundation._CFSocket: None -> <ExtensionModule 'CoreFoundation._CFSocket' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/CoreFoundation/_CFSocket.so imports=[] binaries=[] datas=[]>
+Foundation.NSBundle: None -> None
+  DEL Foundation.NSBundle
+Foundation.traceback: None -> None
+objc.objc: None -> None
+objc.pkg_resources: None -> None
+pkg_resources: None -> <PyModule 'pkg_resources' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/pkg_resources.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('zipimport', 0, 0, -1), ('time', 0, 0, -1), ('re', 0, 0, -1), ('imp', 0, 0, -1), ('new', 0, 0, -1), ('sets', 0, 1, -1), ('sets.ImmutableSet', 0, 1, -1), ('os', 0, 0, -1), ('os.utime', 0, 0, -1), ('os.rename', 0, 0, -1), ('os.unlink', 0, 0, -1), ('os', 0, 0, -1), ('os.open', 0, 0, -1), ('pkgutil', 0, 0, -1), ('pkgutil.get_importer', 0, 0, -1), ('pkgutil.ImpImporter', 0, 0, -1), ('__main__', 0, 0, -1), ('__main__.__requires__', 0, 0, -1), ('distutils.util', 1, 0, -1), ('distutils.util.get_platform', 1, 0, -1), ('linecache', 1, 1, -1), ('linecache.cache', 1, 1, -1), ('cStringIO', 1, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('StringIO', 1, 1, -1), ('StringIO.StringIO', 1, 1, -1), ('warnings', 1, 0, -1), ('warnings.warn', 1, 0, -1), ('tempfile', 1, 0, -1), ('tempfile.mkstemp', 1, 0, -1)] binaries=[] datas=[]>
+objc.new: None -> None
+new: None -> <PyModule 'new' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/new.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('types', 0, 0, -1), ('types.ClassType', 0, 0, -1), ('types', 0, 0, -1), ('types.FunctionType', 0, 0, -1), ('types', 0, 0, -1), ('types.InstanceType', 0, 0, -1), ('types', 0, 0, -1), ('types.MethodType', 0, 0, -1), ('types', 0, 0, -1), ('types.ModuleType', 0, 0, -1), ('types', 0, 0, -1), ('types.CodeType', 0, 0, -1)] binaries=[] datas=[]>
+objc.os: None -> None
+objc.struct: None -> None
+objc.textwrap: None -> None
+objc._bindglobals: None -> <PyModule 'objc._bindglobals' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_bindglobals.pyc imports=[('opcode', 0, 0, -1), ('opcode.opmap', 0, 0, -1), ('opcode.HAVE_ARGUMENT', 0, 0, -1), ('opcode.EXTENDED_ARG', 0, 0, -1), ('types', 0, 0, -1), ('types.*', 0, 0, -1), ('__builtin__', 1, 0, -1)] binaries=[] datas=[]>
+objc.function: None -> None
+  DEL objc.function
+objc.registerMetaDataForSelector: None -> None
+  DEL objc.registerMetaDataForSelector
+objc.xml: None -> None
+xml: None -> <PkgModule 'xml' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/__init__.pyc imports=[('os', 0, 0, -1), ('_xmlplus', 0, 1, -1), ('sys', 0, 1, -1), ('xml.sax.xmlreader', 0, 0, -1), ('xml.sax.expatreader', 0, 0, -1)] binaries=[] datas=[]>
+xml.etree: None -> <PkgModule 'xml.etree' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/etree/__init__.pyc imports=[] binaries=[] datas=[]>
+xml.etree.cElementTree: None -> <PyModule 'xml.etree.cElementTree' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/etree/cElementTree.pyc imports=[('_elementtree', 0, 0, -1), ('_elementtree.*', 0, 0, -1), ('xml.etree.ElementTree', 0, 0, -1)] binaries=[] datas=[]>
+objc.cElementTree: None -> None
+cElementTree: None -> None
+  DEL cElementTree
+objc.elementtree: None -> None
+elementtree: None -> None
+  DEL elementtree
+sets: None -> <PyModule 'sets' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/sets.pyc imports=[('__future__', 0, 0, -1), ('__future__.generators', 0, 0, -1), ('itertools', 0, 0, -1), ('itertools.ifilter', 0, 0, -1), ('itertools.ifilterfalse', 0, 0, -1), ('warnings', 0, 0, -1), ('copy', 1, 0, -1), ('copy.deepcopy', 1, 0, -1)] binaries=[] datas=[]>
+pkgutil: None -> <PyModule 'pkgutil' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/pkgutil.pyc imports=[('os', 0, 0, -1), ('sys', 0, 0, -1), ('imp', 0, 0, -1), ('os.path', 0, 0, -1), ('types', 0, 0, -1), ('types.ModuleType', 0, 0, -1), ('zipimport', 0, 0, -1), ('zipimport', 0, 0, -1), ('zipimport.zipimporter', 0, 0, -1), ('marshal', 1, 0, -1), ('inspect', 1, 0, -1), ('inspect', 1, 0, -1)] binaries=[] datas=[]>
+distutils: None -> <PkgModule 'distutils' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/distutils/__init__.pyc imports=[] binaries=[] datas=[('include/python2.6/pyconfig.h', '/System/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyconfig.h', 'DATA'), ('lib/python2.6/config/Makefile', '/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/config/Makefile', 'DATA')]>
+distutils.util: None -> <PyModule 'distutils.util' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/distutils/util.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('string', 0, 0, -1), ('re', 0, 0, -1), ('distutils.errors', 0, 0, -1), ('distutils.errors.DistutilsPlatformError', 0, 0, -1), ('distutils.dep_util', 0, 0, -1), ('distutils.dep_util.newer', 0, 0, -1), ('distutils.spawn', 0, 0, -1), ('distutils.spawn.spawn', 0, 0, -1), ('distutils', 0, 0, -1), ('distutils.log', 0, 0, -1), ('distutils.sysconfig', 1, 1, -1), ('distutils.sysconfig.get_config_vars', 1, 1, -1), ('distutils.sysconfig', 1, 1, -1), ('distutils.sysconfig.get_config_vars', 1, 1, -1), ('pwd', 1, 1, -1), ('tempfile', 1, 1, -1), ('tempfile.mkstemp', 1, 1, -1), ('tempfile', 1, 1, -1), ('tempfile.mktemp', 1, 1, -1), ('py_compile', 1, 1, -1), ('py_compile.compile', 1, 1, -1)] binaries=[] datas=[]>
+distutils.sys: None -> None
+distutils.os: None -> None
+distutils.string: None -> None
+distutils.re: None -> None
+distutils.distutils: None -> None
+distutils.errors: None -> <PyModule 'distutils.errors' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/distutils/errors.pyc imports=[] binaries=[] datas=[]>
+distutils.dep_util: None -> <PyModule 'distutils.dep_util' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/distutils/dep_util.pyc imports=[('os', 0, 0, -1), ('distutils.errors', 0, 0, -1), ('distutils.errors.DistutilsFileError', 0, 0, -1), ('stat', 1, 0, -1), ('stat.ST_MTIME', 1, 0, -1), ('stat', 1, 0, -1), ('stat.ST_MTIME', 1, 0, -1)] binaries=[] datas=[]>
+distutils.spawn: None -> <PyModule 'distutils.spawn' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/distutils/spawn.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('string', 0, 0, -1), ('distutils.errors', 0, 0, -1), ('distutils.errors.*', 0, 0, -1), ('distutils', 0, 0, -1), ('distutils.log', 0, 0, -1), ('errno', 1, 1, -1)] binaries=[] datas=[]>
+distutils.log: None -> <PyModule 'distutils.log' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/distutils/log.pyc imports=[('sys', 0, 0, -1)] binaries=[] datas=[]>
+distutils.sysconfig: None -> <PyModule 'distutils.sysconfig' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/distutils/sysconfig.pyc imports=[('os', 0, 0, -1), ('re', 0, 0, -1), ('string', 0, 0, -1), ('sys', 0, 0, -1), ('distutils.errors', 0, 0, -1), ('distutils.errors.DistutilsPlatformError', 0, 0, -1), ('distutils.text_file', 1, 0, -1), ('distutils.text_file.TextFile', 1, 0, -1), ('MacOS', 1, 0, -1)] binaries=[] datas=[]>
+distutils.pwd: None -> None
+distutils.tempfile: None -> None
+distutils.py_compile: None -> None
+py_compile: None -> <PyModule 'py_compile' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/py_compile.pyc imports=[('__builtin__', 0, 0, -1), ('imp', 0, 0, -1), ('marshal', 0, 0, -1), ('os', 0, 0, -1), ('sys', 0, 0, -1), ('traceback', 0, 0, -1), ('MacOS', 0, 1, -1)] binaries=[] datas=[]>
+distutils.stat: None -> None
+distutils.errno: None -> None
+distutils.text_file: None -> <PyModule 'distutils.text_file' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/distutils/text_file.pyc imports=[('types', 0, 0, -1), ('types.*', 0, 0, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('string', 0, 0, -1)] binaries=[] datas=[]>
+distutils.MacOS: None -> None
+MacOS: None -> <ExtensionModule 'MacOS' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/MacOS.so imports=[] binaries=[] datas=[]>
+distutils.types: None -> None
+objc.opcode: None -> None
+objc.types: None -> None
+objc.__builtin__: None -> None
+xml.os: None -> None
+xml._xmlplus: None -> None
+_xmlplus: None -> None
+  DEL _xmlplus
+xml.sys: None -> None
+xml.xml: None -> None
+xml.sax: None -> <PkgModule 'xml.sax' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/sax/__init__.pyc imports=[('xmlreader', 0, 0, -1), ('xmlreader.InputSource', 0, 0, -1), ('handler', 0, 0, -1), ('handler.ContentHandler', 0, 0, -1), ('handler.ErrorHandler', 0, 0, -1), ('_exceptions', 0, 0, -1), ('_exceptions.SAXException', 0, 0, -1), ('_exceptions.SAXNotRecognizedException', 0, 0, -1), ('_exceptions.SAXParseException', 0, 0, -1), ('_exceptions.SAXNotSupportedException', 0, 0, -1), ('_exceptions.SAXReaderNotAvailable', 0, 0, -1), ('xml.sax.expatreader', 0, 1, -1), ('os', 0, 0, -1), ('sys', 0, 0, -1), ('cStringIO', 1, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('StringIO', 1, 1, -1), ('StringIO.StringIO', 1, 1, -1), ('sys', 1, 1, -1), ('org.python.core', 1, 0, -1), ('org.python.core.imp', 1, 0, -1)] binaries=[] datas=[]>
+xml.sax.xmlreader: None -> <PyModule 'xml.sax.xmlreader' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/sax/xmlreader.pyc imports=[('handler', 0, 0, -1), ('_exceptions', 0, 0, -1), ('_exceptions.SAXNotSupportedException', 0, 0, -1), ('_exceptions.SAXNotRecognizedException', 0, 0, -1), ('saxutils', 1, 0, -1)] binaries=[] datas=[]>
+xml.sax.expatreader: None -> <PyModule 'xml.sax.expatreader' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/sax/expatreader.pyc imports=[('xml.sax._exceptions', 0, 0, -1), ('xml.sax._exceptions.*', 0, 0, -1), ('xml.sax.handler', 0, 0, -1), ('xml.sax.handler.feature_validation', 0, 0, -1), ('xml.sax.handler.feature_namespaces', 0, 0, -1), ('xml.sax.handler', 0, 0, -1), ('xml.sax.handler.feature_namespace_prefixes', 0, 0, -1), ('xml.sax.handler', 0, 0, -1), ('xml.sax.handler.feature_external_ges', 0, 0, -1), ('xml.sax.handler.feature_external_pes', 0, 0, -1), ('xml.sax.handler', 0, 0, -1), ('xml.sax.handler.feature_string_interning', 0, 0, -1), ('xml.sax.handler', 0, 0, -1), ('xml.sax.handler.property_xml_string', 0, 0, -1), ('xml.sax.handler.property_interning_dict', 0, 0, -1), ('sys', 0, 0, -1), ('xml.parsers', 0, 0, -1), ('xml.parsers.expat', 0, 0, -1), ('xml.sax', 0, 0, -1), ('xml.sax.xmlreader', 0, 0, -1), ('xml.sax.saxutils', 0, 0, -1), ('xml.sax.handler', 0, 0, -1), ('_weakref', 0, 0, -1), ('weakref', 0, 1, -1), ('xml.sax', 0, 1, -1)] binaries=[] datas=[]>
+xml.sax.handler: None -> <PyModule 'xml.sax.handler' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/sax/handler.pyc imports=[] binaries=[] datas=[]>
+xml.sax._exceptions: None -> <PyModule 'xml.sax._exceptions' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/sax/_exceptions.pyc imports=[('sys', 0, 0, -1), ('java.lang', 0, 1, -1), ('java.lang.Exception', 0, 1, -1)] binaries=[] datas=[]>
+xml.sax.xml: None -> None
+xml.sax.os: None -> None
+xml.sax.sys: None -> None
+xml.sax.cStringIO: None -> None
+xml.sax.StringIO: None -> None
+xml.sax.org: None -> None
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+xml.sax.saxutils: None -> <PyModule 'xml.sax.saxutils' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/sax/saxutils.pyc imports=[('os', 0, 0, -1), ('urlparse', 0, 0, -1), ('urllib', 0, 0, -1), ('types', 0, 0, -1), ('handler', 0, 0, -1), ('xmlreader', 0, 0, -1), ('codecs', 0, 0, -1), ('codecs.xmlcharrefreplace_errors', 0, 0, -1), ('sys', 1, 1, -1)] binaries=[] datas=[]>
+xml.sax.java: None -> None
+java: None -> None
+  DEL java
+java: None -> None
+  DEL java
+xml.sax.urlparse: None -> None
+urlparse: None -> <PyModule 'urlparse' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/urlparse.pyc imports=[('collections', 0, 0, -1), ('collections.namedtuple', 0, 0, -1), ('sys', 1, 0, -1), ('cStringIO', 1, 1, -1), ('cStringIO.StringIO', 1, 1, -1), ('StringIO', 1, 1, -1), ('StringIO.StringIO', 1, 1, -1)] binaries=[] datas=[]>
+xml.sax.urllib: None -> None
+urllib: None -> <PyModule 'urllib' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/urllib.pyc imports=[('string', 0, 0, -1), ('socket', 0, 0, -1), ('os', 0, 0, -1), ('time', 0, 0, -1), ('sys', 0, 0, -1), ('urlparse', 0, 0, -1), ('urlparse.urljoin', 0, 0, -1), ('warnings', 0, 0, -1), ('macurl2path', 0, 1, -1), ('macurl2path.url2pathname', 0, 1, -1), ('macurl2path.pathname2url', 0, 1, -1), ('nturl2path', 0, 1, -1), ('nturl2path.url2pathname', 0, 1, -1), ('nturl2path.pathname2url', 0, 1, -1), ('rourl2path', 0, 1, -1), ('rourl2path.url2pathname', 0, 1, -1), ('rourl2path.pathname2url', 0, 1, -1), ('ssl', 0, 0, -1), ('warnings', 1, 0, -1), ('warnings.warnpy3k', 1, 0, -1), ('tempfile', 1, 1, -1), ('httplib', 1, 0, -1), ('base64', 1, 1, -1), ('base64', 1, 1, -1), ('httplib', 1, 0, -1), ('base64', 1, 1, -1), ('base64', 1, 1, -1), ('mimetypes', 1, 0, -1), ('mimetools', 1, 0, -1), ('email.utils', 1, 0, -1), ('cStringIO', 1, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('StringIO', 1, 1, -1), ('StringIO.StringIO', 1, 1, -1), ('mimetypes', 1, 0, -1), ('mimetools', 1, 0, -1), ('cStringIO', 1, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('StringIO', 1, 1, -1), ('StringIO.StringIO', 1, 1, -1), ('ftplib', 1, 1, -1), ('mimetools', 1, 0, -1), ('cStringIO', 1, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('StringIO', 1, 1, -1), ('StringIO.StringIO', 1, 1, -1), ('base64', 1, 1, -1), ('re', 1, 0, -1), ('re', 1, 0, -1), ('getpass', 1, 0, -1), ('ftplib', 1, 1, -1), ('mimetools', 1, 1, -1), ('cStringIO', 1, 1, -1), ('cStringIO.StringIO', 1, 1, -1), ('StringIO', 1, 1, -1), ('StringIO.StringIO', 1, 1, -1), ('ftplib', 1, 0, -1), ('ftplib', 1, 0, -1), ('re', 1, 1, -1), ('re', 1, 1, -1), ('re', 1, 1, -1), ('re', 1, 1, -1), ('re', 1, 1, -1), ('re', 1, 1, -1), ('re', 1, 1, -1), ('re', 1, 1, -1), ('re', 1, 1, -1), ('ctypes', 1, 0, -1), ('ctypes.c_int32', 1, 0, -1), ('ctypes.c_void_p', 1, 0, -1), ('ctypes.c_char_p', 1, 0, -1), ('ctypes.c_int', 1, 0, -1), ('ctypes', 1, 0, -1), ('ctypes.create_string_buffer', 1, 0, -1), ('ctypes', 1, 0, -1), ('ctypes.byref', 1, 0, -1), ('ctypes.c_int', 1, 0, -1), ('ctypes', 1, 0, -1), ('ctypes.cdll', 1, 0, -1), ('ctypes.util', 1, 0, -1), ('ctypes.util.find_library', 1, 0, -1), ('re', 1, 0, -1), ('socket', 1, 0, -1), ('fnmatch', 1, 0, -1), ('fnmatch.fnmatch', 1, 0, -1), ('ctypes', 1, 0, -1), ('ctypes.cdll', 1, 0, -1), ('ctypes.util', 1, 0, -1), ('ctypes.util.find_library', 1, 0, -1), ('_winreg', 1, 0, -1), ('re', 1, 1, -1), ('_winreg', 1, 0, -1), ('re', 1, 0, -1), ('getopt', 1, 0, -1), ('sys', 1, 0, -1)] binaries=[] datas=[]>
+xml.sax.types: None -> None
+xml.sax.codecs: None -> None
+socket: None -> <PyModule 'socket' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/socket.pyc imports=[('_socket', 0, 0, -1), ('_socket', 0, 0, -1), ('_socket.*', 0, 0, -1), ('_ssl', 0, 0, -1), ('_ssl', 0, 1, -1), ('_ssl.SSLError', 0, 1, -1), ('_ssl', 0, 1, -1), ('_ssl.RAND_add', 0, 1, -1), ('_ssl.RAND_egd', 0, 1, -1), ('_ssl.RAND_status', 0, 1, -1), ('_ssl.SSL_ERROR_ZERO_RETURN', 0, 1, -1), ('_ssl.SSL_ERROR_WANT_READ', 0, 1, -1), ('_ssl.SSL_ERROR_WANT_WRITE', 0, 1, -1), ('_ssl.SSL_ERROR_WANT_X509_LOOKUP', 0, 1, -1), ('_ssl.SSL_ERROR_SYSCALL', 0, 1, -1), ('_ssl.SSL_ERROR_SSL', 0, 1, -1), ('_ssl.SSL_ERROR_WANT_CONNECT', 0, 1, -1), ('_ssl.SSL_ERROR_EOF', 0, 1, -1), ('_ssl.SSL_ERROR_INVALID_ERROR_CODE', 0, 1, -1), ('os', 0, 0, -1), ('sys', 0, 0, -1), ('warnings', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('StringIO', 0, 1, -1), ('StringIO.StringIO', 0, 1, -1), ('errno', 0, 0, -1), ('errno.EBADF', 0, 0, -1), ('ssl', 1, 0, -1)] binaries=[] datas=[]>
+macurl2path: None -> <PyModule 'macurl2path' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/macurl2path.pyc imports=[('urllib', 0, 0, -1), ('os', 0, 0, -1)] binaries=[] datas=[]>
+nturl2path: None -> <PyModule 'nturl2path' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/nturl2path.pyc imports=[('string', 1, 0, -1), ('urllib', 1, 0, -1), ('urllib', 1, 0, -1)] binaries=[] datas=[]>
+rourl2path: None -> None
+  DEL rourl2path
+rourl2path: None -> None
+  DEL rourl2path
+rourl2path: None -> None
+  DEL rourl2path
+ssl: None -> <PyModule 'ssl' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/ssl.pyc imports=[('textwrap', 0, 0, -1), ('_ssl', 0, 0, -1), ('_ssl', 0, 0, -1), ('_ssl.SSLError', 0, 0, -1), ('_ssl', 0, 0, -1), ('_ssl.CERT_NONE', 0, 0, -1), ('_ssl.CERT_OPTIONAL', 0, 0, -1), ('_ssl.CERT_REQUIRED', 0, 0, -1), ('_ssl', 0, 0, -1), ('_ssl.PROTOCOL_SSLv2', 0, 0, -1), ('_ssl.PROTOCOL_SSLv3', 0, 0, -1), ('_ssl.PROTOCOL_SSLv23', 0, 0, -1), ('_ssl.PROTOCOL_TLSv1', 0, 0, -1), ('_ssl', 0, 0, -1), ('_ssl.RAND_status', 0, 0, -1), ('_ssl.RAND_egd', 0, 0, -1), ('_ssl.RAND_add', 0, 0, -1), ('_ssl', 0, 0, -1), ('_ssl.SSL_ERROR_ZERO_RETURN', 0, 0, -1), ('_ssl.SSL_ERROR_WANT_READ', 0, 0, -1), ('_ssl.SSL_ERROR_WANT_WRITE', 0, 0, -1), ('_ssl.SSL_ERROR_WANT_X509_LOOKUP', 0, 0, -1), ('_ssl.SSL_ERROR_SYSCALL', 0, 0, -1), ('_ssl.SSL_ERROR_SSL', 0, 0, -1), ('_ssl.SSL_ERROR_WANT_CONNECT', 0, 0, -1), ('_ssl.SSL_ERROR_EOF', 0, 0, -1), ('_ssl.SSL_ERROR_INVALID_ERROR_CODE', 0, 0, -1), ('socket', 0, 0, -1), ('socket.socket', 0, 0, -1), ('socket._fileobject', 0, 0, -1), ('socket', 0, 0, -1), ('socket.getnameinfo', 0, 0, -1), ('base64', 0, 0, -1), ('time', 1, 0, -1)] binaries=[] datas=[]>
+httplib: None -> <PyModule 'httplib' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/httplib.pyc imports=[('socket', 0, 0, -1), ('sys', 0, 0, -1), ('sys.py3kwarning', 0, 0, -1), ('urlparse', 0, 0, -1), ('urlparse.urlsplit', 0, 0, -1), ('warnings', 0, 0, -1), ('mimetools', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('StringIO', 0, 1, -1), ('StringIO.StringIO', 0, 1, -1), ('ssl', 0, 0, -1), ('os', 1, 1, -1), ('sys', 1, 0, -1), ('getopt', 1, 0, -1), ('ssl', 1, 0, -1)] binaries=[] datas=[]>
+mimetypes: None -> <PyModule 'mimetypes' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/mimetypes.pyc imports=[('os', 0, 0, -1), ('posixpath', 0, 0, -1), ('urllib', 0, 0, -1), ('sys', 0, 1, -1), ('getopt', 0, 1, -1)] binaries=[] datas=[]>
+mimetools: None -> <PyModule 'mimetools' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/mimetools.pyc imports=[('os', 0, 0, -1), ('sys', 0, 0, -1), ('tempfile', 0, 0, -1), ('warnings', 0, 0, -1), ('warnings.filterwarnings', 0, 0, -1), ('warnings.catch_warnings', 0, 0, -1), ('rfc822', 0, 0, -1), ('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('thread', 0, 0, -1), ('dummy_thread', 0, 1, -1), ('time', 1, 0, -1), ('socket', 1, 1, -1), ('base64', 1, 1, -1), ('quopri', 1, 1, -1), ('uu', 1, 1, -1), ('base64', 1, 1, -1), ('quopri', 1, 1, -1), ('uu', 1, 1, -1)] binaries=[] datas=[]>
+email: None -> <PkgModule 'email' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/__init__.pyc imports=[('sys', 0, 0, -1), ('email.mime', 0, 0, -1), ('email.parser', 1, 0, -1), ('email.parser.Parser', 1, 0, -1), ('email.parser', 1, 0, -1), ('email.parser.Parser', 1, 0, -1), ('email.charset', 0, 0, -1), ('email.encoders', 0, 0, -1), ('email.errors', 0, 0, -1), ('email.feedparser', 0, 0, -1), ('email.generator', 0, 0, -1), ('email.header', 0, 0, -1), ('email.iterators', 0, 0, -1), ('email.message', 0, 0, -1), ('email.parser', 0, 0, -1), ('email.utils', 0, 0, -1), ('email.base64mime', 0, 0, -1), ('email.quoprimime', 0, 0, -1), ('email.mime.audio', 0, 0, -1), ('email.mime.base', 0, 0, -1), ('email.mime.image', 0, 0, -1), ('email.mime.message', 0, 0, -1), ('email.mime.multipart', 0, 0, -1), ('email.mime.nonmultipart', 0, 0, -1), ('email.mime.text', 0, 0, -1)] binaries=[] datas=[]>
+email.utils: None -> <PyModule 'email.utils' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/utils.pyc imports=[('os', 0, 0, -1), ('re', 0, 0, -1), ('time', 0, 0, -1), ('base64', 0, 0, -1), ('random', 0, 0, -1), ('socket', 0, 0, -1), ('urllib', 0, 0, -1), ('warnings', 0, 0, -1), ('email._parseaddr', 0, 0, -1), ('email._parseaddr.quote', 0, 0, -1), ('email._parseaddr', 0, 0, -1), ('email._parseaddr.AddressList', 0, 0, -1), ('email._parseaddr', 0, 0, -1), ('email._parseaddr.mktime_tz', 0, 0, -1), ('email._parseaddr', 0, 0, -1), ('email._parseaddr.parsedate', 0, 0, -1), ('email._parseaddr', 0, 0, -1), ('email._parseaddr.parsedate_tz', 0, 0, -1), ('quopri', 0, 0, -1), ('quopri.decodestring', 0, 0, -1), ('email.encoders', 0, 0, -1), ('email.encoders._bencode', 0, 0, -1), ('email.encoders._qencode', 0, 0, -1), ('urllib', 1, 0, -1)] binaries=[] datas=[]>
+ftplib: None -> <PyModule 'ftplib' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/ftplib.pyc imports=[('os', 0, 0, -1), ('sys', 0, 0, -1), ('SOCKS', 0, 0, -1), ('socket', 0, 0, -1), ('socket.getfqdn', 0, 0, -1), ('socket', 0, 1, -1), ('socket', 0, 0, -1), ('socket._GLOBAL_DEFAULT_TIMEOUT', 0, 0, -1), ('re', 1, 1, -1), ('re', 1, 1, -1)] binaries=[] datas=[]>
+getpass: None -> <PyModule 'getpass' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/getpass.pyc imports=[('os', 0, 0, -1), ('sys', 0, 0, -1), ('warnings', 0, 0, -1), ('termios', 0, 0, -1), ('msvcrt', 0, 1, -1), ('EasyDialogs', 0, 1, -1), ('EasyDialogs.AskPassword', 0, 1, -1), ('msvcrt', 1, 0, -1), ('os', 1, 0, -1), ('pwd', 1, 0, -1)] binaries=[] datas=[]>
+ctypes: None -> <PkgModule 'ctypes' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/ctypes/__init__.pyc imports=[('os', 0, 0, -1), ('sys', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes.Union', 0, 0, -1), ('_ctypes.Structure', 0, 0, -1), ('_ctypes.Array', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes._Pointer', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes.CFuncPtr', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes.__version__', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes.RTLD_LOCAL', 0, 0, -1), ('_ctypes.RTLD_GLOBAL', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes.ArgumentError', 0, 0, -1), ('struct', 0, 0, -1), ('struct.calcsize', 0, 0, -1), ('_ctypes', 0, 1, -1), ('_ctypes.FormatError', 0, 1, -1), ('_ctypes', 0, 0, -1), ('_ctypes.FUNCFLAG_CDECL', 0, 0, -1), ('_ctypes.FUNCFLAG_PYTHONAPI', 0, 0, -1), ('_ctypes.FUNCFLAG_USE_ERRNO', 0, 0, -1), ('_ctypes.FUNCFLAG_USE_LASTERROR', 0, 0, -1), ('_ctypes', 0, 1, -1), ('_ctypes.LoadLibrary', 0, 1, -1), ('_ctypes', 0, 1, -1), ('_ctypes.FUNCFLAG_STDCALL', 0, 1, -1), ('_ctypes', 0, 1, -1), ('_ctypes.dlopen', 0, 1, -1), ('_ctypes', 0, 0, -1), ('_ctypes.sizeof', 0, 0, -1), ('_ctypes.byref', 0, 0, -1), ('_ctypes.addressof', 0, 0, -1), ('_ctypes.alignment', 0, 0, -1), ('_ctypes.resize', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes.get_errno', 0, 0, -1), ('_ctypes.set_errno', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes._SimpleCData', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes.POINTER', 0, 0, -1), ('_ctypes.pointer', 0, 0, -1), ('_ctypes._pointer_type_cache', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes.set_conversion_mode', 0, 0, -1), ('_ctypes', 0, 1, -1), ('_ctypes._check_HRESULT', 0, 1, -1), ('_ctypes._SimpleCData', 0, 1, -1), ('_ctypes', 0, 1, -1), ('_ctypes.get_last_error', 0, 1, -1), ('_ctypes.set_last_error', 0, 1, -1), ('_ctypes', 0, 0, -1), ('_ctypes._memmove_addr', 0, 0, -1), ('_ctypes._memset_addr', 0, 0, -1), ('_ctypes._string_at_addr', 0, 0, -1), ('_ctypes._cast_addr', 0, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes._wstring_at_addr', 0, 0, -1), ('ctypes._endian', 0, 0, -1), ('ctypes._endian.BigEndianStructure', 0, 0, -1), ('ctypes._endian.LittleEndianStructure', 0, 0, -1), ('struct', 1, 0, -1), ('struct.calcsize', 1, 0, -1)] binaries=[] datas=[]>
+ctypes.c_int32: None -> None
+  DEL ctypes.c_int32
+ctypes.c_void_p: None -> None
+  DEL ctypes.c_void_p
+ctypes.c_char_p: None -> None
+  DEL ctypes.c_char_p
+ctypes.c_int: None -> None
+  DEL ctypes.c_int
+ctypes.create_string_buffer: None -> None
+  DEL ctypes.create_string_buffer
+ctypes.byref: None -> None
+  DEL ctypes.byref
+ctypes.c_int: None -> None
+  DEL ctypes.c_int
+ctypes.cdll: None -> None
+  DEL ctypes.cdll
+ctypes.util: None -> <PyModule 'ctypes.util' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/ctypes/util.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('ctypes.macholib.dyld', 0, 1, -1), ('ctypes.macholib.dyld.dyld_find', 0, 1, -1), ('re', 0, 1, -1), ('tempfile', 0, 1, -1), ('errno', 0, 1, -1), ('imp', 1, 0, -1), ('ctypes', 1, 0, -1), ('ctypes.cdll', 1, 0, -1)] binaries=[] datas=[]>
+fnmatch: None -> <PyModule 'fnmatch' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/fnmatch.pyc imports=[('re', 0, 0, -1), ('os', 1, 0, -1), ('os', 1, 0, -1), ('posixpath', 1, 0, -1)] binaries=[] datas=[]>
+ctypes.cdll: None -> None
+  DEL ctypes.cdll
+_winreg: None -> None
+  DEL _winreg
+_winreg: None -> None
+  DEL _winreg
+_socket: None -> <ExtensionModule '_socket' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_socket.so imports=[] binaries=[] datas=[]>
+_ssl: None -> <ExtensionModule '_ssl' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_ssl.so imports=[] binaries=[] datas=[]>
+rfc822: None -> <PyModule 'rfc822' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/rfc822.pyc imports=[('time', 0, 0, -1), ('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('sys', 0, 1, -1), ('os', 0, 1, -1)] binaries=[] datas=[]>
+uu: None -> <PyModule 'uu' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/uu.pyc imports=[('binascii', 0, 0, -1), ('os', 0, 0, -1), ('sys', 0, 0, -1), ('optparse', 1, 0, -1)] binaries=[] datas=[]>
+email.sys: None -> None
+email.email: None -> None
+email.mime: None -> <PkgModule 'email.mime' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/mime/__init__.pyc imports=[] binaries=[] datas=[]>
+email.parser: None -> <PyModule 'email.parser' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/parser.pyc imports=[('warnings', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('email.feedparser', 0, 0, -1), ('email.feedparser.FeedParser', 0, 0, -1), ('email.message', 0, 0, -1), ('email.message.Message', 0, 0, -1)] binaries=[] datas=[]>
+email.charset: None -> <PyModule 'email.charset' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/charset.pyc imports=[('email.base64mime', 0, 0, -1), ('email.quoprimime', 0, 0, -1), ('email', 0, 0, -1), ('email.errors', 0, 0, -1), ('email.encoders', 0, 0, -1), ('email.encoders.encode_7or8bit', 0, 0, -1)] binaries=[] datas=[]>
+email.encoders: None -> <PyModule 'email.encoders' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/encoders.pyc imports=[('base64', 0, 0, -1), ('quopri', 0, 0, -1), ('quopri.encodestring', 0, 0, -1)] binaries=[] datas=[]>
+email.errors: None -> <PyModule 'email.errors' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/errors.pyc imports=[] binaries=[] datas=[]>
+email.feedparser: None -> <PyModule 'email.feedparser' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/feedparser.pyc imports=[('re', 0, 0, -1), ('email', 0, 0, -1), ('email.errors', 0, 0, -1), ('email', 0, 0, -1), ('email.message', 0, 0, -1)] binaries=[] datas=[]>
+email.generator: None -> <PyModule 'email.generator' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/generator.pyc imports=[('re', 0, 0, -1), ('sys', 0, 0, -1), ('time', 0, 0, -1), ('random', 0, 0, -1), ('warnings', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('email.header', 0, 0, -1), ('email.header.Header', 0, 0, -1)] binaries=[] datas=[]>
+email.header: None -> <PyModule 'email.header' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/header.pyc imports=[('re', 0, 0, -1), ('binascii', 0, 0, -1), ('email.quoprimime', 0, 0, -1), ('email.base64mime', 0, 0, -1), ('email.errors', 0, 0, -1), ('email.errors.HeaderParseError', 0, 0, -1), ('email.charset', 0, 0, -1), ('email.charset.Charset', 0, 0, -1)] binaries=[] datas=[]>
+email.iterators: None -> <PyModule 'email.iterators' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/iterators.pyc imports=[('sys', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1)] binaries=[] datas=[]>
+email.message: None -> <PyModule 'email.message' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/message.pyc imports=[('re', 0, 0, -1), ('uu', 0, 0, -1), ('binascii', 0, 0, -1), ('warnings', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('email.charset', 0, 0, -1), ('email', 0, 0, -1), ('email.utils', 0, 0, -1), ('email', 0, 0, -1), ('email.errors', 0, 0, -1), ('email.Iterators', 1, 0, -1), ('email.Iterators.walk', 1, 0, -1), ('email.Generator', 1, 0, -1), ('email.Generator.Generator', 1, 0, -1), ('email.iterators', 0, 0, -1), ('email.generator', 0, 0, -1)] binaries=[] datas=[]>
+email.base64mime: None -> <PyModule 'email.base64mime' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/base64mime.pyc imports=[('binascii', 0, 0, -1), ('binascii.b2a_base64', 0, 0, -1), ('binascii.a2b_base64', 0, 0, -1), ('email.utils', 0, 0, -1), ('email.utils.fix_eols', 0, 0, -1)] binaries=[] datas=[]>
+email.quoprimime: None -> <PyModule 'email.quoprimime' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/quoprimime.pyc imports=[('re', 0, 0, -1), ('string', 0, 0, -1), ('string.hexdigits', 0, 0, -1), ('email.utils', 0, 0, -1), ('email.utils.fix_eols', 0, 0, -1)] binaries=[] datas=[]>
+email.mime.audio: None -> <PyModule 'email.mime.audio' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/mime/audio.pyc imports=[('sndhdr', 0, 0, -1), ('cStringIO', 0, 0, -1), ('cStringIO.StringIO', 0, 0, -1), ('email', 0, 0, -1), ('email.encoders', 0, 0, -1), ('email.mime.nonmultipart', 0, 0, -1), ('email.mime.nonmultipart.MIMENonMultipart', 0, 0, -1)] binaries=[] datas=[]>
+email.mime.base: None -> <PyModule 'email.mime.base' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/mime/base.pyc imports=[('email', 0, 0, -1), ('email.message', 0, 0, -1)] binaries=[] datas=[]>
+email.mime.image: None -> <PyModule 'email.mime.image' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/mime/image.pyc imports=[('imghdr', 0, 0, -1), ('email', 0, 0, -1), ('email.encoders', 0, 0, -1), ('email.mime.nonmultipart', 0, 0, -1), ('email.mime.nonmultipart.MIMENonMultipart', 0, 0, -1)] binaries=[] datas=[]>
+email.mime.message: None -> <PyModule 'email.mime.message' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/mime/message.pyc imports=[('email', 0, 0, -1), ('email.message', 0, 0, -1), ('email.mime.nonmultipart', 0, 0, -1), ('email.mime.nonmultipart.MIMENonMultipart', 0, 0, -1)] binaries=[] datas=[]>
+email.mime.multipart: None -> <PyModule 'email.mime.multipart' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/mime/multipart.pyc imports=[('email.mime.base', 0, 0, -1), ('email.mime.base.MIMEBase', 0, 0, -1)] binaries=[] datas=[]>
+email.mime.nonmultipart: None -> <PyModule 'email.mime.nonmultipart' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/mime/nonmultipart.pyc imports=[('email', 0, 0, -1), ('email.errors', 0, 0, -1), ('email.mime.base', 0, 0, -1), ('email.mime.base.MIMEBase', 0, 0, -1)] binaries=[] datas=[]>
+email.mime.text: None -> <PyModule 'email.mime.text' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/mime/text.pyc imports=[('email.encoders', 0, 0, -1), ('email.encoders.encode_7or8bit', 0, 0, -1), ('email.mime.nonmultipart', 0, 0, -1), ('email.mime.nonmultipart.MIMENonMultipart', 0, 0, -1)] binaries=[] datas=[]>
+email.warnings: None -> None
+email.cStringIO: None -> None
+email.re: None -> None
+email.uu: None -> None
+email.binascii: None -> None
+email.Iterators: None -> None
+  DEL email.Iterators
+email.Iterators: None -> None
+  DEL email.Iterators
+email.Generator: None -> None
+  DEL email.Generator
+email.Generator: None -> None
+  DEL email.Generator
+email.os: None -> None
+email.time: None -> None
+email.base64: None -> None
+email.random: None -> None
+email.socket: None -> None
+email.urllib: None -> None
+email._parseaddr: None -> <PyModule 'email._parseaddr' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/email/_parseaddr.pyc imports=[('time', 0, 0, -1)] binaries=[] datas=[]>
+email.quopri: None -> None
+email.string: None -> None
+email.mime.sndhdr: None -> None
+sndhdr: None -> <PyModule 'sndhdr' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/sndhdr.pyc imports=[('aifc', 1, 0, -1), ('sys', 1, 0, -1), ('sys', 1, 0, -1), ('os', 1, 0, -1), ('glob', 1, 1, -1)] binaries=[] datas=[]>
+email.mime.cStringIO: None -> None
+email.mime.email: None -> None
+aifc: None -> <PyModule 'aifc' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/aifc.pyc imports=[('struct', 0, 0, -1), ('__builtin__', 0, 0, -1), ('chunk', 0, 0, -1), ('chunk.Chunk', 0, 0, -1), ('sys', 0, 1, -1), ('math', 1, 0, -1), ('cl', 1, 1, -1), ('cl', 1, 0, -1), ('audioop', 1, 0, -1), ('audioop', 1, 0, -1), ('audioop', 1, 1, -1), ('cl', 1, 1, -1), ('audioop', 1, 1, -1), ('cl', 1, 0, -1), ('audioop', 1, 0, -1), ('audioop', 1, 0, -1), ('cl', 1, 0, -1), ('audioop', 1, 1, -1)] binaries=[] datas=[]>
+glob: None -> <PyModule 'glob' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/glob.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('re', 0, 0, -1), ('fnmatch', 0, 0, -1)] binaries=[] datas=[]>
+chunk: None -> <PyModule 'chunk' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/chunk.pyc imports=[('struct', 1, 0, -1)] binaries=[] datas=[]>
+cl: None -> None
+  DEL cl
+cl: None -> None
+  DEL cl
+audioop: None -> <ExtensionModule 'audioop' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/audioop.so imports=[] binaries=[] datas=[]>
+cl: None -> None
+  DEL cl
+cl: None -> None
+  DEL cl
+cl: None -> None
+  DEL cl
+email.mime.imghdr: None -> None
+imghdr: None -> <PyModule 'imghdr' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/imghdr.pyc imports=[('sys', 1, 0, -1), ('sys', 1, 0, -1), ('os', 1, 0, -1), ('glob', 1, 1, -1)] binaries=[] datas=[]>
+SOCKS: None -> None
+  DEL SOCKS
+termios: None -> <ExtensionModule 'termios' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/termios.so imports=[] binaries=[] datas=[]>
+msvcrt: None -> None
+  DEL msvcrt
+EasyDialogs: None -> <PyModule 'EasyDialogs' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/EasyDialogs.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('Carbon.Dlg', 0, 0, -1), ('Carbon.Dlg.GetNewDialog', 0, 0, -1), ('Carbon.Dlg.SetDialogItemText', 0, 0, -1), ('Carbon.Dlg.GetDialogItemText', 0, 0, -1), ('Carbon.Dlg.ModalDialog', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.Qd', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.QuickDraw', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.Dialogs', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.Windows', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.Dlg', 0, 0, -1), ('Carbon.Win', 0, 0, -1), ('Carbon.Evt', 0, 0, -1), ('Carbon.Events', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.Ctl', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.Controls', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.Menu', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.AE', 0, 0, -1), ('Nav', 0, 0, -1), ('MacOS', 0, 0, -1), ('string', 0, 0, -1), ('Carbon.ControlAccessor', 0, 0, -1), ('Carbon.ControlAccessor.*', 0, 0, -1), ('Carbon.File', 0, 0, -1), ('macresource', 0, 0, -1), ('os', 0, 0, -1), ('sys', 0, 0, -1), ('aepack', 1, 0, -1), ('Carbon.AE', 1, 0, -1), ('Carbon.File', 1, 0, -1), ('time', 1, 0, -1)] binaries=[] datas=[]>
+msvcrt: None -> None
+  DEL msvcrt
+Carbon: None -> <PkgModule 'Carbon' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/__init__.pyc imports=[('warnings', 0, 0, -1), ('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.Dlg: None -> <PyModule 'Carbon.Dlg' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Dlg.pyc imports=[('_Dlg', 0, 0, -1), ('_Dlg.*', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.Qd: None -> <PyModule 'Carbon.Qd' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Qd.pyc imports=[('_Qd', 0, 0, -1), ('_Qd.*', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.QuickDraw: None -> <PyModule 'Carbon.QuickDraw' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/QuickDraw.pyc imports=[] binaries=[] datas=[]>
+Carbon.Dialogs: None -> <PyModule 'Carbon.Dialogs' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Dialogs.pyc imports=[] binaries=[] datas=[]>
+Carbon.Windows: None -> <PyModule 'Carbon.Windows' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Windows.pyc imports=[] binaries=[] datas=[]>
+Carbon.Win: None -> <PyModule 'Carbon.Win' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Win.pyc imports=[('_Win', 0, 0, -1), ('_Win.*', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.Evt: None -> <PyModule 'Carbon.Evt' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Evt.pyc imports=[('_Evt', 0, 0, -1), ('_Evt.*', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.Events: None -> <PyModule 'Carbon.Events' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Events.pyc imports=[] binaries=[] datas=[]>
+Carbon.Ctl: None -> <PyModule 'Carbon.Ctl' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Ctl.pyc imports=[('_Ctl', 0, 0, -1), ('_Ctl.*', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.Controls: None -> <PyModule 'Carbon.Controls' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Controls.pyc imports=[('Carbon.TextEdit', 0, 0, -1), ('Carbon.TextEdit.*', 0, 0, -1), ('Carbon.QuickDraw', 0, 0, -1), ('Carbon.QuickDraw.*', 0, 0, -1), ('Carbon.Dragconst', 0, 0, -1), ('Carbon.Dragconst.*', 0, 0, -1), ('Carbon.CarbonEvents', 0, 0, -1), ('Carbon.CarbonEvents.*', 0, 0, -1), ('Carbon.Appearance', 0, 0, -1), ('Carbon.Appearance.*', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.Menu: None -> <PyModule 'Carbon.Menu' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Menu.pyc imports=[('_Menu', 0, 0, -1), ('_Menu.*', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.AE: None -> <PyModule 'Carbon.AE' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/AE.pyc imports=[('_AE', 0, 0, -1), ('_AE.*', 0, 0, -1)] binaries=[] datas=[]>
+Nav: None -> <ExtensionModule 'Nav' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/Nav.so imports=[] binaries=[] datas=[]>
+Carbon.ControlAccessor: None -> <PyModule 'Carbon.ControlAccessor' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/ControlAccessor.pyc imports=[('Controls', 0, 0, -1), ('Controls.*', 0, 0, -1), ('struct', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.File: None -> <PyModule 'Carbon.File' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/File.pyc imports=[('_File', 0, 0, -1), ('_File.*', 0, 0, -1)] binaries=[] datas=[]>
+macresource: None -> <PyModule 'macresource' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/macresource.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.Res', 0, 0, -1), ('os', 0, 0, -1), ('sys', 0, 0, -1), ('MacOS', 0, 0, -1), ('macostools', 0, 0, -1), ('tempfile', 1, 1, -1), ('applesingle', 1, 0, -1)] binaries=[] datas=[]>
+aepack: None -> <PyModule 'aepack' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/aepack.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('struct', 0, 0, -1), ('types', 0, 0, -1), ('types', 0, 0, -1), ('types.*', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.AE', 0, 0, -1), ('Carbon.AppleEvents', 0, 0, -1), ('Carbon.AppleEvents.*', 0, 0, -1), ('MacOS', 0, 0, -1), ('Carbon.File', 0, 0, -1), ('aetypes', 0, 0, -1), ('aetypes', 0, 0, -1), ('aetypes.mkenum', 0, 0, -1), ('aetypes.ObjectSpecifier', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.warnings: None -> None
+Carbon._Dlg: None -> None
+_Dlg: None -> <ExtensionModule '_Dlg' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_Dlg.so imports=[] binaries=[] datas=[]>
+Carbon._Qd: None -> None
+_Qd: None -> <ExtensionModule '_Qd' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_Qd.so imports=[] binaries=[] datas=[]>
+Carbon._Win: None -> None
+_Win: None -> <ExtensionModule '_Win' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_Win.so imports=[] binaries=[] datas=[]>
+Carbon._Evt: None -> None
+_Evt: None -> <ExtensionModule '_Evt' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_Evt.so imports=[] binaries=[] datas=[]>
+Carbon._Ctl: None -> None
+_Ctl: None -> <ExtensionModule '_Ctl' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_Ctl.so imports=[] binaries=[] datas=[]>
+Carbon.Carbon: None -> None
+Carbon.TextEdit: None -> <PyModule 'Carbon.TextEdit' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/TextEdit.pyc imports=[] binaries=[] datas=[]>
+Carbon.Dragconst: None -> <PyModule 'Carbon.Dragconst' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Dragconst.pyc imports=[('Carbon.TextEdit', 0, 0, -1), ('Carbon.TextEdit.*', 0, 0, -1), ('Carbon.QuickDraw', 0, 0, -1), ('Carbon.QuickDraw.*', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.CarbonEvents: None -> <PyModule 'Carbon.CarbonEvents' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/CarbonEvents.pyc imports=[] binaries=[] datas=[]>
+Carbon.Appearance: None -> <PyModule 'Carbon.Appearance' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Appearance.pyc imports=[] binaries=[] datas=[]>
+Carbon._Menu: None -> None
+_Menu: None -> <ExtensionModule '_Menu' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_Menu.so imports=[] binaries=[] datas=[]>
+Carbon._AE: None -> None
+_AE: None -> <ExtensionModule '_AE' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_AE.so imports=[] binaries=[] datas=[]>
+Carbon.struct: None -> None
+Carbon._File: None -> None
+_File: None -> <ExtensionModule '_File' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_File.so imports=[] binaries=[] datas=[]>
+Carbon.Res: None -> <PyModule 'Carbon.Res' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Res.pyc imports=[('OverrideFrom23._Res', 0, 0, -1), ('OverrideFrom23._Res.*', 0, 0, -1), ('_Res', 0, 1, -1), ('_Res.*', 0, 1, -1)] binaries=[] datas=[]>
+macostools: None -> <PyModule 'macostools' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/macostools.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.Res', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.File', 0, 0, -1), ('Carbon.Files', 0, 0, -1), ('os', 0, 0, -1), ('MacOS', 0, 0, -1), ('warnings', 1, 0, -1), ('Finder', 1, 0, -1)] binaries=[] datas=[]>
+applesingle: None -> <PyModule 'applesingle' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/applesingle.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('struct', 0, 0, -1), ('sys', 0, 0, -1), ('MacOS', 0, 0, -1), ('Carbon.File', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.OverrideFrom23: None -> None
+OverrideFrom23: None -> None
+  DEL OverrideFrom23
+OverrideFrom23: None -> None
+  DEL OverrideFrom23
+Carbon._Res: None -> None
+_Res: None -> <ExtensionModule '_Res' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_Res.so imports=[] binaries=[] datas=[]>
+Carbon.Files: None -> <PyModule 'Carbon.Files' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/Files.pyc imports=[] binaries=[] datas=[]>
+Finder: None -> <PkgModule 'Finder' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/Finder/__init__.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('aetools', 0, 0, -1), ('Standard_Suite', 0, 0, -1), ('Legacy_suite', 0, 0, -1), ('Containers_and_folders', 0, 0, -1), ('Files', 0, 0, -1), ('Finder_Basics', 0, 0, -1), ('Finder_items', 0, 0, -1), ('Window_classes', 0, 0, -1), ('Type_Definitions', 0, 0, -1), ('Enumerations', 0, 0, -1), ('Standard_Suite', 0, 0, -1), ('Standard_Suite.*', 0, 0, -1), ('Legacy_suite', 0, 0, -1), ('Legacy_suite.*', 0, 0, -1), ('Containers_and_folders', 0, 0, -1), ('Containers_and_folders.*', 0, 0, -1), ('Files', 0, 0, -1), ('Files.*', 0, 0, -1), ('Finder_Basics', 0, 0, -1), ('Finder_Basics.*', 0, 0, -1), ('Finder_items', 0, 0, -1), ('Finder_items.*', 0, 0, -1), ('Window_classes', 0, 0, -1), ('Window_classes.*', 0, 0, -1), ('Type_Definitions', 0, 0, -1), ('Type_Definitions.*', 0, 0, -1), ('Enumerations', 0, 0, -1), ('Enumerations.*', 0, 0, -1), ('StdSuites', 0, 0, -1)] binaries=[] datas=[]>
+Finder.warnings: None -> None
+Finder.aetools: None -> None
+aetools: None -> <PyModule 'aetools' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/aetools.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('types', 0, 0, -1), ('types.*', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.AE', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.Evt', 0, 0, -1), ('Carbon', 0, 0, -1), ('Carbon.AppleEvents', 0, 0, -1), ('MacOS', 0, 0, -1), ('sys', 0, 0, -1), ('time', 0, 0, -1), ('aetypes', 0, 0, -1), ('aetypes.*', 0, 0, -1), ('aepack', 0, 0, -1), ('aepack.packkey', 0, 0, -1), ('aepack.pack', 0, 0, -1), ('aepack.unpack', 0, 0, -1), ('aepack.coerce', 0, 0, -1), ('aepack.AEDescType', 0, 0, -1)] binaries=[] datas=[]>
+Finder.Standard_Suite: None -> <PyModule 'Finder.Standard_Suite' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/Finder/Standard_Suite.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1), ('StdSuites.Standard_Suite', 0, 0, -1), ('StdSuites.Standard_Suite.*', 0, 0, -1)] binaries=[] datas=[]>
+Finder.Legacy_suite: None -> <PyModule 'Finder.Legacy_suite' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/Finder/Legacy_suite.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+Finder.Containers_and_folders: None -> <PyModule 'Finder.Containers_and_folders' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/Finder/Containers_and_folders.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1), ('Files', 0, 0, -1), ('Finder_items', 0, 0, -1)] binaries=[] datas=[]>
+Finder.Files: None -> <PyModule 'Finder.Files' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/Finder/Files.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1), ('Finder_items', 0, 0, -1)] binaries=[] datas=[]>
+Finder.Finder_Basics: None -> <PyModule 'Finder.Finder_Basics' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/Finder/Finder_Basics.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1), ('Files', 0, 0, -1), ('Window_classes', 0, 0, -1), ('Containers_and_folders', 0, 0, -1), ('Finder_items', 0, 0, -1)] binaries=[] datas=[]>
+Finder.Finder_items: None -> <PyModule 'Finder.Finder_items' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/Finder/Finder_items.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+Finder.Window_classes: None -> <PyModule 'Finder.Window_classes' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/Finder/Window_classes.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+Finder.Type_Definitions: None -> <PyModule 'Finder.Type_Definitions' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/Finder/Type_Definitions.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+Finder.Enumerations: None -> <PyModule 'Finder.Enumerations' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/Finder/Enumerations.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1), ('StdSuites.Type_Names_Suite', 0, 0, -1), ('StdSuites.Type_Names_Suite.*', 0, 0, -1)] binaries=[] datas=[]>
+Finder.StdSuites: None -> None
+StdSuites: None -> <PkgModule 'StdSuites' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/StdSuites/__init__.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('aetools', 0, 0, -1), ('Text_Suite', 0, 0, -1), ('AppleScript_Suite', 0, 0, -1), ('Standard_Suite', 0, 0, -1), ('Macintosh_Connectivity_Clas', 0, 0, -1), ('QuickDraw_Graphics_Suite', 0, 0, -1), ('QuickDraw_Graphics_Suppleme', 0, 0, -1), ('Required_Suite', 0, 0, -1), ('Table_Suite', 0, 0, -1), ('Type_Names_Suite', 0, 0, -1), ('Text_Suite', 0, 0, -1), ('Text_Suite.*', 0, 0, -1), ('AppleScript_Suite', 0, 0, -1), ('AppleScript_Suite.*', 0, 0, -1), ('Standard_Suite', 0, 0, -1), ('Standard_Suite.*', 0, 0, -1), ('Macintosh_Connectivity_Clas', 0, 0, -1), ('Macintosh_Connectivity_Clas.*', 0, 0, -1), ('QuickDraw_Graphics_Suite', 0, 0, -1), ('QuickDraw_Graphics_Suite.*', 0, 0, -1), ('QuickDraw_Graphics_Suppleme', 0, 0, -1), ('QuickDraw_Graphics_Suppleme.*', 0, 0, -1), ('Required_Suite', 0, 0, -1), ('Required_Suite.*', 0, 0, -1), ('Table_Suite', 0, 0, -1), ('Table_Suite.*', 0, 0, -1), ('Type_Names_Suite', 0, 0, -1), ('Type_Names_Suite.*', 0, 0, -1), ('StdSuites', 0, 0, -1)] binaries=[] datas=[]>
+Carbon.AppleEvents: None -> <PyModule 'Carbon.AppleEvents' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/Carbon/AppleEvents.pyc imports=[] binaries=[] datas=[]>
+aetypes: None -> <PyModule 'aetypes' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/aetypes.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('Carbon.AppleEvents', 0, 0, -1), ('Carbon.AppleEvents.*', 0, 0, -1), ('struct', 0, 0, -1), ('types', 0, 0, -1), ('types.*', 0, 0, -1), ('string', 0, 0, -1), ('aepack', 1, 0, -1), ('aepack.pack', 1, 0, -1)] binaries=[] datas=[]>
+Finder.MacOS: None -> None
+StdSuites.Standard_Suite: None -> <PyModule 'StdSuites.Standard_Suite' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/StdSuites/Standard_Suite.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1), ('_builtinSuites.builtin_Suite', 0, 0, -1), ('_builtinSuites.builtin_Suite.*', 0, 0, -1)] binaries=[] datas=[]>
+StdSuites.warnings: None -> None
+StdSuites.aetools: None -> None
+StdSuites.Text_Suite: None -> <PyModule 'StdSuites.Text_Suite' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/StdSuites/Text_Suite.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+StdSuites.AppleScript_Suite: None -> <PyModule 'StdSuites.AppleScript_Suite' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/StdSuites/AppleScript_Suite.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+StdSuites.Macintosh_Connectivity_Clas: None -> <PyModule 'StdSuites.Macintosh_Connectivity_Clas' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/StdSuites/Macintosh_Connectivity_Clas.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+StdSuites.QuickDraw_Graphics_Suite: None -> <PyModule 'StdSuites.QuickDraw_Graphics_Suite' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/StdSuites/QuickDraw_Graphics_Suite.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+StdSuites.QuickDraw_Graphics_Suppleme: None -> <PyModule 'StdSuites.QuickDraw_Graphics_Suppleme' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/StdSuites/QuickDraw_Graphics_Suppleme.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+StdSuites.Required_Suite: None -> <PyModule 'StdSuites.Required_Suite' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/StdSuites/Required_Suite.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1), ('_builtinSuites.builtin_Suite', 0, 0, -1), ('_builtinSuites.builtin_Suite.*', 0, 0, -1)] binaries=[] datas=[]>
+StdSuites.Table_Suite: None -> <PyModule 'StdSuites.Table_Suite' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/StdSuites/Table_Suite.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+StdSuites.Type_Names_Suite: None -> <PyModule 'StdSuites.Type_Names_Suite' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/StdSuites/Type_Names_Suite.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+StdSuites.StdSuites: None -> None
+StdSuites.MacOS: None -> None
+StdSuites._builtinSuites: None -> None
+_builtinSuites: None -> <PkgModule '_builtinSuites' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/_builtinSuites/__init__.pyc imports=[('warnings', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('aetools', 0, 0, -1), ('builtin_Suite', 0, 0, -1), ('builtin_Suite', 0, 0, -1), ('builtin_Suite.*', 0, 0, -1)] binaries=[] datas=[]>
+_builtinSuites.builtin_Suite: None -> <PyModule '_builtinSuites.builtin_Suite' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages/_builtinSuites/builtin_Suite.pyc imports=[('aetools', 0, 0, -1), ('MacOS', 0, 0, -1)] binaries=[] datas=[]>
+_builtinSuites.warnings: None -> None
+_builtinSuites.aetools: None -> None
+_builtinSuites.MacOS: None -> None
+ctypes.os: None -> None
+ctypes.sys: None -> None
+ctypes._ctypes: None -> None
+_ctypes: None -> <ExtensionModule '_ctypes' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_ctypes.so imports=[] binaries=[] datas=[]>
+ctypes.struct: None -> None
+ctypes.ctypes: None -> None
+ctypes._endian: None -> <PyModule 'ctypes._endian' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/ctypes/_endian.pyc imports=[('sys', 0, 0, -1), ('ctypes', 0, 0, -1), ('ctypes.*', 0, 0, -1)] binaries=[] datas=[]>
+ctypes.macholib: None -> <PkgModule 'ctypes.macholib' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/ctypes/macholib/__init__.pyc imports=[] binaries=[] datas=[]>
+ctypes.macholib.dyld: None -> <PyModule 'ctypes.macholib.dyld' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/ctypes/macholib/dyld.pyc imports=[('os', 0, 0, -1), ('framework', 0, 0, -1), ('framework.framework_info', 0, 0, -1), ('dylib', 0, 0, -1), ('dylib.dylib_info', 0, 0, -1), ('itertools', 0, 0, -1), ('itertools.*', 0, 0, -1)] binaries=[] datas=[]>
+ctypes.re: None -> None
+ctypes.tempfile: None -> None
+ctypes.errno: None -> None
+ctypes.imp: None -> None
+ctypes.cdll: None -> None
+  DEL ctypes.cdll
+ctypes.macholib.os: None -> None
+ctypes.macholib.framework: None -> <PyModule 'ctypes.macholib.framework' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/ctypes/macholib/framework.pyc imports=[('re', 0, 0, -1)] binaries=[] datas=[]>
+ctypes.macholib.dylib: None -> <PyModule 'ctypes.macholib.dylib' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/ctypes/macholib/dylib.pyc imports=[('re', 0, 0, -1)] binaries=[] datas=[]>
+ctypes.macholib.itertools: None -> None
+ctypes.macholib.re: None -> None
+xml.parsers: None -> <PkgModule 'xml.parsers' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/parsers/__init__.pyc imports=[] binaries=[] datas=[]>
+xml.parsers.expat: None -> <PyModule 'xml.parsers.expat' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/parsers/expat.pyc imports=[('pyexpat', 0, 0, -1), ('pyexpat.*', 0, 0, -1)] binaries=[] datas=[]>
+xml.sax._weakref: None -> None
+_weakref: None -> <ExtensionModule '_weakref' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_weakref.so imports=[] binaries=[] datas=[]>
+xml.sax.weakref: None -> None
+weakref: None -> <PyModule 'weakref' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/weakref.pyc imports=[('UserDict', 0, 0, -1), ('_weakref', 0, 0, -1), ('_weakref.getweakrefcount', 0, 0, -1), ('_weakref.getweakrefs', 0, 0, -1), ('_weakref.ref', 0, 0, -1), ('_weakref.proxy', 0, 0, -1), ('_weakref.CallableProxyType', 0, 0, -1), ('_weakref.ProxyType', 0, 0, -1), ('_weakref.ReferenceType', 0, 0, -1), ('exceptions', 0, 0, -1), ('exceptions.ReferenceError', 0, 0, -1)] binaries=[] datas=[]>
+xml.parsers.pyexpat: None -> None
+pyexpat: None -> <ExtensionModule 'pyexpat' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/pyexpat.so imports=[('xmlparse', 0, 0, -1), ('xmltok', 0, 0, -1)] binaries=[] datas=[]>
+xmlparse: None -> None
+  DEL xmlparse
+xmltok: None -> None
+  DEL xmltok
+exceptions: None -> <BuiltinModule 'exceptions' None imports=[] binaries=[] datas=[]>
+xml.etree._elementtree: None -> None
+_elementtree: None -> <ExtensionModule '_elementtree' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload/_elementtree.so imports=[('pyexpat', 0, 0, -1), ('xml.etree.ElementTree', 0, 0, -1), ('copy', 0, 0, -1)] binaries=[] datas=[]>
+xml.etree.xml: None -> None
+xml.etree.ElementTree: None -> <PyModule 'xml.etree.ElementTree' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/etree/ElementTree.pyc imports=[('string', 0, 0, -1), ('sys', 0, 0, -1), ('re', 0, 0, -1), ('ElementPath', 0, 0, -1), ('xml.parsers', 1, 0, -1), ('xml.parsers.expat', 1, 0, -1), ('xml.parsers', 1, 1, -1), ('xml.parsers.expat', 1, 1, -1)] binaries=[] datas=[]>
+xml.etree.string: None -> None
+xml.etree.sys: None -> None
+xml.etree.re: None -> None
+xml.etree.ElementPath: None -> <PyModule 'xml.etree.ElementPath' /System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/xml/etree/ElementPath.pyc imports=[('re', 0, 0, -1)] binaries=[] datas=[]>
+objc._framework: None -> <PyModule 'objc._framework' /System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC/objc/_framework.pyc imports=[('re', 1, 1, -1)] binaries=[] datas=[]>
+objc.re: None -> None
+objc.inspect: None -> None
+Foundation.NSBundle: None -> None
+  DEL Foundation.NSBundle
+objc.copy: None -> None
+objc.pickle: None -> None
+AppKit.__bundle__: None -> None
+  DEL AppKit.__bundle__
+__main__: <PyScript '__main__' /tmp/gather.py imports=[('AppKit', 0, 0, -1)] binaries=[] datas=[]> -> <PyScript '__main__' /Users/rdsears/Coding/pyinstaller/support/rthooks/pyi_rth_encodings.py imports=[('encodings', 0, 0, -1)] binaries=[] datas=[]>
+_emx_link: None -> None
+  DEL _emx_link
+_emx_link: None -> None
+  DEL _emx_link
+nt: None -> None
+  DEL nt
+nt: None -> None
+  DEL nt
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+msvcrt: None -> None
+  DEL msvcrt
+_subprocess: None -> None
+  DEL _subprocess
+_subprocess: None -> None
+  DEL _subprocess
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
