@@ -1,0 +1,59 @@
+diff -rupN /tmp/PyObjC.bakup/AppKit/__init__.py /System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/AppKit/__init__.py
+--- /tmp/PyObjC.bakup/AppKit/__init__.py	2009-06-23 18:35:32.000000000 -0400
++++ /System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/AppKit/__init__.py	2012-07-17 02:19:52.000000000 -0400
+@@ -5,6 +5,8 @@ This module does not contain docstrings 
+ documentation for details on how to use these functions and classes. 
+ '''
+ 
++__version__ = "Custom"
++
+ import objc as _objc
+ from Foundation import *
+ 
+Binary files /tmp/PyObjC.bakup/AppKit/__init__.pyc and /System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/AppKit/__init__.pyc differ
+Binary files /tmp/PyObjC.bakup/objc/._bridgesupport.py.swp and /System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/objc/._bridgesupport.py.swp differ
+diff -rupN /tmp/PyObjC.bakup/objc/_bridgesupport.py /System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/objc/_bridgesupport.py
+--- /tmp/PyObjC.bakup/objc/_bridgesupport.py	2009-06-23 18:35:44.000000000 -0400
++++ /System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/objc/_bridgesupport.py	2012-07-17 02:47:57.000000000 -0400
+@@ -127,7 +127,10 @@ def initFrameworkWrapper(frameworkName,
+     # Explicitly push objc.super into the globals dict, that way super
+     # calls will behave as expected in all cases.
+     globals['super'] = objc.super
+-
++    try: 
++        import sys._MEIPASS as PyInstallerPath
++    except ImportError:
++        PyInstallerPath = False
+     if 1:
+         # Look for metadata in the Python wrapper and prefer that over the
+         # data in the framework or in system locations. 
+@@ -135,17 +138,25 @@ def initFrameworkWrapper(frameworkName,
+         try:
+             exists = pkg_resources.resource_exists(
+                     frameworkResourceName, "PyObjC.bridgesupport")
+-        
++            if PyInstallerPath:
++                exists = os.path.exists(sys._MEIPASS + '/bridge/' + frameworkResourceName + '.' + 'PyObjC.bridgesupport')
+         except ImportError:
+             pass
+-
+         else:
+-            if exists:
++            if exists and not PyInstallerPath:
+                 data = pkg_resources.resource_string(frameworkResourceName,
+                     "PyObjC.bridgesupport")
+                 if data:
+                     _parseBridgeSupport(data, globals, frameworkName, inlineTab=inlineTab)
+                 return bundle
++            elif exists and PyInstallerPath:    
++                with open(PyInstallerPath + '/bridge/' + frameworkResourceName + '.' + 'PyObjC.bridgesupport') as f:
++                    data = f.read()
++                if data:
++                    _parseBridgeSupport(data, globals, frameworkName, inlineTab=inlineTab)
++                return bundle
++            else:
++                print "Unknown Error :("
+ 
+     # Look for metadata in the framework bundle
+     path = bundle.pathForResource_ofType_inDirectory_(frameworkName, 'bridgesupport', 'BridgeSupport')
+Binary files /tmp/PyObjC.bakup/objc/_bridgesupport.pyc and /System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/objc/_bridgesupport.pyc differ

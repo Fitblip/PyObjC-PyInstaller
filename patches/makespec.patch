@@ -1,0 +1,117 @@
+--- pyinstaller.clean/PyInstaller/makespec.py	2012-07-17 13:57:54.000000000 -0400
++++ pyinstaller/PyInstaller/makespec.py	2012-07-17 13:50:23.000000000 -0400
+@@ -43,6 +43,66 @@ exe = EXE(pyz,
+           console=%(console)s %(exe_options)s)
+ """
+ 
++onefilepyobjc = """# -*- mode: python -*-
++a = Analysis(%(scripts)s,
++             pathex=%(pathex)s,
++             hiddenimports=%(hiddenimports)r,
++             hookspath=%(hookspath)r)
++a.datas += [
++                ('bridge/AddressBook.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/AddressBook/PyObjC.bridgesupport','DATA'),
++                ('bridge/AppKit.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/AppKit/PyObjC.bridgesupport','DATA'),
++                ('bridge/AppleScriptKit.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/AppleScriptKit/PyObjC.bridgesupport','DATA'),
++                ('bridge/Automator.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Automator/PyObjC.bridgesupport','DATA'),
++                ('bridge/CalendarStore.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/CalendarStore/PyObjC.bridgesupport','DATA'),
++                ('bridge/CFNetwork.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/CFNetwork/PyObjC.bridgesupport','DATA'),
++                ('bridge/Collaboration.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Collaboration/PyObjC.bridgesupport','DATA'),
++                ('bridge/CoreData.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/CoreData/PyObjC.bridgesupport','DATA'),
++                ('bridge/CoreFoundation.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/CoreFoundation/PyObjC.bridgesupport','DATA'),
++                ('bridge/CoreText.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/CoreText/PyObjC.bridgesupport','DATA'),
++                ('bridge/DictionaryServices.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/DictionaryServices/PyObjC.bridgesupport','DATA'),
++                ('bridge/ExceptionHandling.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/ExceptionHandling/PyObjC.bridgesupport','DATA'),
++                ('bridge/Foundation.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Foundation/PyObjC.bridgesupport','DATA'),
++                ('bridge/FSEvents.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/FSEvents/PyObjC.bridgesupport','DATA'),
++                ('bridge/InputMethodKit.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/InputMethodKit/PyObjC.bridgesupport','DATA'),
++                ('bridge/InstallerPlugins.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/InstallerPlugins/PyObjC.bridgesupport','DATA'),
++                ('bridge/InstantMessage.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/InstantMessage/PyObjC.bridgesupport','DATA'),
++                ('bridge/InterfaceBuilderKit.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/InterfaceBuilderKit/PyObjC.bridgesupport','DATA'),
++                ('bridge/JavaScriptCore.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/JavaScriptCore/PyObjC.bridgesupport','DATA'),
++                ('bridge/LatentSemanticMapping.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/LatentSemanticMapping/PyObjC.bridgesupport','DATA'),
++                ('bridge/LaunchServices.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/LaunchServices/PyObjC.bridgesupport','DATA'),
++                ('bridge/Message.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Message/PyObjC.bridgesupport','DATA'),
++                ('bridge/PreferencePanes.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/PreferencePanes/PyObjC.bridgesupport','DATA'),
++                ('bridge/PubSub.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/PubSub/PyObjC.bridgesupport','DATA'),
++                ('bridge/QTKit.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/QTKit/PyObjC.bridgesupport','DATA'),
++                ('bridge/Quartz.CoreGraphics.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Quartz/CoreGraphics/PyObjC.bridgesupport','DATA'),
++                ('bridge/Quartz.CoreVideo.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Quartz/CoreVideo/PyObjC.bridgesupport','DATA'),
++                ('bridge/Quartz.ImageIO.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Quartz/ImageIO/PyObjC.bridgesupport','DATA'),
++                ('bridge/Quartz.ImageKit.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Quartz/ImageKit/PyObjC.bridgesupport','DATA'),
++                ('bridge/Quartz.PDFKit.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Quartz/PDFKit/PyObjC.bridgesupport','DATA'),
++                ('bridge/Quartz.QuartzComposer.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Quartz/QuartzComposer/PyObjC.bridgesupport','DATA'),
++                ('bridge/Quartz.QuartzCore.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Quartz/QuartzCore/PyObjC.bridgesupport','DATA'),
++                ('bridge/Quartz.QuartzFilters.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/Quartz/QuartzFilters/PyObjC.bridgesupport','DATA'),
++                ('bridge/ScreenSaver.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/ScreenSaver/PyObjC.bridgesupport','DATA'),
++                ('bridge/ScriptingBridge.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/ScriptingBridge/PyObjC.bridgesupport','DATA'),
++                ('bridge/SearchKit.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/SearchKit/PyObjC.bridgesupport','DATA'),
++                ('bridge/SyncServices.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/SyncServices/PyObjC.bridgesupport','DATA'),
++                ('bridge/SystemConfiguration.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/SystemConfiguration/PyObjC.bridgesupport','DATA'),
++                ('bridge/WebKit.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/WebKit/PyObjC.bridgesupport','DATA'),
++                ('bridge/XgridFoundation.PyObjC.bridgesupport','/System/Library/Frameworks/Python.framework/Versions/Current/Extras/lib/python/PyObjC/XgridFoundation/PyObjC.bridgesupport','DATA'),
++           ]
++pyz = PYZ(a.pure)
++exe = EXE(pyz,
++          a.scripts,
++          a.binaries,
++          a.zipfiles,
++          a.datas,
++          name=os.path.join(%(distdir)s, '%(exename)s'),
++          debug=%(debug)s,
++          strip=%(strip)s,
++          upx=%(upx)s,
++          console=%(console)s %(exe_options)s)
++"""
++
+ onedirtmplt = """# -*- mode: python -*-
+ a = Analysis(%(scripts)s,
+              pathex=%(pathex)s,
+@@ -207,6 +267,12 @@ def __add_options(parser):
+                       "from file.exe and add it to the final executable. "
+                       "If FILE is an .icns file, add the icon to the final "
+                       ".app bundle on Mac OS X (for Mac not yet implemented)")
++    g.add_option("-P","--PyObjC","--objc",dest="uses_PyObjC",
++                 action="store_true", default=False,
++                 help="Use this flag to include the necessary .bridgesupport "
++                      "files needed by PyObjC properly use the module. Doesn't "
++                      "work without a patched version of PyObjC found at "
++                      "https://github.com/Fitblip/PyObjC-PyInstaller")
+ 
+     g = parser.add_option_group('Windows specific options')
+     g.add_option("--version-file",
+@@ -233,14 +299,12 @@ def main(scripts, name=None, onefile=0,
+          console=True, debug=False, strip=0, noupx=0, comserver=0,
+          workdir=None, pathex=[], version_file=None,
+          icon_file=None, manifest=None, resources=[], crypt=None,
+-         hiddenimports=None, hookspath=None, **kwargs):
+-
++         hiddenimports=None,uses_PyObjC=False, hookspath=None, **kwargs):
+     if not name:
+         name = os.path.splitext(os.path.basename(scripts[0]))[0]
+ 
+     distdir = "dist"
+     builddir = os.path.join('build', 'pyi.' + sys.platform, name)
+-
+     pathex = pathex[:]
+     if workdir is None:
+         workdir = os.getcwd()
+@@ -284,6 +348,7 @@ def main(scripts, name=None, onefile=0,
+          'crypt' : repr(crypt),
+          'crypted': crypt is not None,
+          'console': console or debug,
++         'uses_PyObjC': uses_PyObjC,
+          'exe_options': exe_options}
+ 
+     if is_win or is_cygwin:
+@@ -298,7 +363,9 @@ def main(scripts, name=None, onefile=0,
+ 
+     specfnm = os.path.join(workdir, name+'.spec')
+     specfile = open(specfnm, 'w')
+-    if onefile:
++    if onefile and uses_PyObjC:
++        specfile.write(onefilepyobjc % d)
++    elif onefile and not uses_PyObjC:
+         specfile.write(onefiletmplt % d)
+         if not console:
+             specfile.write(bundleexetmplt % d)
